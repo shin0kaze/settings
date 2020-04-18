@@ -1,0 +1,2108 @@
+{
+  "cards": [
+    {
+      "id": "5f33fddb-e6e1-4460-a5a6-13ba2b57ba4b",
+      "name": "BLUE_VOICE_PRESET_AM_RADIO",
+      "attribute": "BLUE_VOICE_SETTINGS",
+      "readOnly": true,
+      "blueVoiceSettings": {
+        "description": {
+          "tag": "BLUE_PRESET",
+          "name": "BLUE_VOICE_PRESET_AM_RADIO"
+        },
+        "settings": {
+          "balance": 0,
+          "volume": 0.7,
+          "inputGain": 0.7,
+          "voiceEq": {
+            "enabled": true,
+            "low": {
+              "frequency": 310,
+              "gain": 0.63162673,
+              "width": 0.5
+            },
+            "mid": {
+              "frequency": 1000,
+              "gain": 5.6234131,
+              "width": 4
+            },
+            "high": {
+              "frequency": 5000,
+              "gain": 0.17782794,
+              "width": 0.5
+            }
+          },
+          "dePopper": {
+            "enabled": true,
+            "frequency": 160
+          },
+          "noiseReduction": {
+            "enabled": true,
+            "release": 250,
+            "sensitivity": 6,
+            "bias": 2.5,
+            "attenuationMax": -12
+          },
+          "expander": {
+            "enabled": true,
+            "attack": 5,
+            "release": 250,
+            "hysteresis": 5,
+            "ratio": 4,
+            "threshold": -24,
+            "thresholdAutoEnabled": false,
+            "thresholdAutoSensibility": 20,
+            "attenuationMax": -20
+          },
+          "deEsser": {
+            "enabled": false,
+            "attack": 5,
+            "release": 250,
+            "ratio": 4,
+            "threshold": 0,
+            "frequency": 7000
+          },
+          "compressor": {
+            "enabled": true,
+            "attack": 10,
+            "release": 500,
+            "ratio": 20,
+            "threshold": -18,
+            "makeup": 1
+          },
+          "limiter": {
+            "boost": 5,
+            "attack": 5,
+            "release": 250
+          }
+        }
+      }
+    },
+    {
+      "id": "af167a0c-a936-4cda-9706-1d9b82b232be",
+      "name": "BLUE_VOICE_PRESET_FM_STATION",
+      "attribute": "BLUE_VOICE_SETTINGS",
+      "readOnly": true,
+      "blueVoiceSettings": {
+        "description": {
+          "tag": "BLUE_PRESET",
+          "name": "BLUE_VOICE_PRESET_FM_STATION"
+        },
+        "settings": {
+          "balance": 0,
+          "inputGain": 0.7,
+          "volume": 0.7,
+          "voiceEq": {
+            "enabled": true,
+            "low": {
+              "frequency": 160,
+              "gain": 3.5813189,
+              "width": 5
+            },
+            "mid": {
+              "frequency": 410,
+              "gain": 0.63162673,
+              "width": 2
+            },
+            "high": {
+              "frequency": 5000,
+              "gain": 3.1275153,
+              "width": 1
+            }
+          },
+          "dePopper": {
+            "enabled": true,
+            "frequency": 75
+          },
+          "noiseReduction": {
+            "enabled": true,
+            "release": 100,
+            "sensitivity": 6,
+            "bias": 2.5,
+            "attenuationMax": -12
+          },
+          "expander": {
+            "enabled": false,
+            "attack": 5,
+            "release": 250,
+            "hysteresis": 5,
+            "ratio": 2,
+            "threshold": -48,
+            "thresholdAutoEnabled": false,
+            "thresholdAutoSensibility": 20,
+            "attenuationMax": -20
+          },
+          "deEsser": {
+            "enabled": false,
+            "attack": 5,
+            "release": 250,
+            "ratio": 4,
+            "threshold": 0,
+            "frequency": 7000
+          },
+          "compressor": {
+            "enabled": true,
+            "attack": 5,
+            "release": 250,
+            "ratio": 12,
+            "threshold": -9,
+            "makeup": 1
+          },
+          "limiter": {
+            "boost": 4,
+            "attack": 5,
+            "release": 250
+          }
+        }
+      }
+    },
+    {
+      "id": "84a9d547-0efb-4b4a-af01-963f5dbe322b",
+      "name": "BLUE_VOICE_PRESET_HIGH_TONE_QUIET",
+      "attribute": "BLUE_VOICE_SETTINGS",
+      "readOnly": true,
+      "blueVoiceSettings": {
+        "description": {
+          "tag": "BLUE_PRESET",
+          "name": "BLUE_VOICE_PRESET_HIGH_TONE_QUIET"
+        },
+        "settings": {
+          "balance": 0,
+          "volume": 0.7,
+          "inputGain": 0.85,
+          "voiceEq": {
+            "enabled": true,
+            "low": {
+              "frequency": 220,
+              "gain": 4.4889164,
+              "width": 1
+            },
+            "mid": {
+              "frequency": 600,
+              "gain": 1.3123249,
+              "width": 1
+            },
+            "high": {
+              "frequency": 5000,
+              "gain": 3.8082182,
+              "width": 1
+            }
+          },
+          "dePopper": {
+            "enabled": true,
+            "frequency": 90
+          },
+          "noiseReduction": {
+            "enabled": true,
+            "release": 100,
+            "sensitivity": 6,
+            "bias": 2.5,
+            "attenuationMax": -18
+          },
+          "expander": {
+            "enabled": true,
+            "attack": 10,
+            "release": 325,
+            "hysteresis": 5,
+            "ratio": 6,
+            "threshold": -25,
+            "thresholdAutoEnabled": false,
+            "thresholdAutoSensibility": 20,
+            "attenuationMax": -20
+          },
+          "deEsser": {
+            "enabled": true,
+            "attack": 2,
+            "release": 200,
+            "ratio": 3,
+            "threshold": -6,
+            "frequency": 6000
+          },
+          "compressor": {
+            "enabled": true,
+            "attack": 2,
+            "release": 400,
+            "ratio": 3,
+            "threshold": -20,
+            "makeup": 1
+          },
+          "limiter": {
+            "boost": 6,
+            "attack": 5,
+            "release": 250
+          }
+        }
+      }
+    },
+    {
+      "id": "a5943725-9af8-4e43-9db0-328958e5d448",
+      "name": "BLUE_VOICE_PRESET_LOW_TONE_LOUD",
+      "attribute": "BLUE_VOICE_SETTINGS",
+      "readOnly": true,
+      "blueVoiceSettings": {
+        "description": {
+          "tag": "BLUE_PRESET",
+          "name": "BLUE_VOICE_PRESET_LOW_TONE_LOUD"
+        },
+        "settings": {
+          "balance": 0,
+          "volume": 0.7,
+          "inputGain": 0.75,
+          "voiceEq": {
+            "enabled": true,
+            "low": {
+              "frequency": 180,
+              "gain": 4.4889164,
+              "width": 2
+            },
+            "mid": {
+              "frequency": 400,
+              "gain": 1.5392243,
+              "width": 1
+            },
+            "high": {
+              "frequency": 3000,
+              "gain": 3.8082182,
+              "width": 1
+            }
+          },
+          "dePopper": {
+            "enabled": true,
+            "frequency": 75
+          },
+          "noiseReduction": {
+            "enabled": true,
+            "release": 200,
+            "sensitivity": 9,
+            "bias": 2.5,
+            "attenuationMax": -18
+          },
+          "expander": {
+            "enabled": true,
+            "attack": 5,
+            "release": 250,
+            "hysteresis": 5,
+            "ratio": 6,
+            "threshold": -25,
+            "thresholdAutoEnabled": false,
+            "thresholdAutoSensibility": 20,
+            "attenuationMax": -20
+          },
+          "deEsser": {
+            "enabled": true,
+            "attack": 5,
+            "release": 250,
+            "ratio": 3,
+            "threshold": -6,
+            "frequency": 5500
+          },
+          "compressor": {
+            "enabled": true,
+            "attack": 10,
+            "release": 500,
+            "ratio": 3,
+            "threshold": -18,
+            "makeup": 1
+          },
+          "limiter": {
+            "boost": 3,
+            "attack": 5,
+            "release": 250
+          }
+        }
+      }
+    },
+    {
+      "id": "e4398d13-e839-44ee-bcba-aa06ca19758e",
+      "name": "BLUE_VOICE_PRESET_LOW_TONE_QUIET",
+      "attribute": "BLUE_VOICE_SETTINGS",
+      "readOnly": true,
+      "blueVoiceSettings": {
+        "description": {
+          "tag": "BLUE_PRESET",
+          "name": "BLUE_VOICE_PRESET_LOW_TONE_QUIET"
+        },
+        "settings": {
+          "balance": 0,
+          "volume": 0.7,
+          "inputGain": 0.85,
+          "voiceEq": {
+            "enabled": true,
+            "low": {
+              "frequency": 180,
+              "gain": 4.7158155,
+              "width": 1
+            },
+            "mid": {
+              "frequency": 750,
+              "gain": 1.5392243,
+              "width": 1
+            },
+            "high": {
+              "frequency": 4000,
+              "gain": 3.8082182,
+              "width": 1
+            }
+          },
+          "dePopper": {
+            "enabled": true,
+            "frequency": 75
+          },
+          "noiseReduction": {
+            "enabled": true,
+            "release": 100,
+            "sensitivity": 6,
+            "bias": 2.5,
+            "attenuationMax": -18
+          },
+          "expander": {
+            "enabled": true,
+            "attack": 5,
+            "release": 250,
+            "hysteresis": 5,
+            "ratio": 4,
+            "threshold": -30,
+            "thresholdAutoEnabled": false,
+            "thresholdAutoSensibility": 20,
+            "attenuationMax": -20
+          },
+          "deEsser": {
+            "enabled": true,
+            "attack": 5,
+            "release": 250,
+            "ratio": 3,
+            "threshold": -9,
+            "frequency": 5500
+          },
+          "compressor": {
+            "enabled": true,
+            "attack": 5,
+            "release": 400,
+            "ratio": 3,
+            "threshold": -18,
+            "makeup": 1
+          },
+          "limiter": {
+            "boost": 6,
+            "attack": 5,
+            "release": 250
+          }
+        }
+      }
+    },
+    {
+      "id": "c7a00991-cc2e-4f78-9823-21674d31465e",
+      "name": "BLUE_VOICE_PRESET_HIGH_TONE_LOUD",
+      "attribute": "BLUE_VOICE_SETTINGS",
+      "readOnly": true,
+      "blueVoiceSettings": {
+        "description": {
+          "tag": "BLUE_PRESET",
+          "name": "BLUE_VOICE_PRESET_HIGH_TONE_LOUD"
+        },
+        "settings": {
+          "balance": 0,
+          "volume": 0.7,
+          "inputGain": 0.75,
+          "voiceEq": {
+            "enabled": true,
+            "low": {
+              "frequency": 220,
+              "gain": 4.0351176,
+              "width": 1
+            },
+            "mid": {
+              "frequency": 600,
+              "gain": 1.5392243,
+              "width": 1
+            },
+            "high": {
+              "frequency": 7000,
+              "gain": 3.8082182,
+              "width": 1
+            }
+          },
+          "dePopper": {
+            "enabled": true,
+            "frequency": 90
+          },
+          "noiseReduction": {
+            "enabled": true,
+            "release": 75,
+            "sensitivity": 9,
+            "bias": 2,
+            "attenuationMax": -18
+          },
+          "expander": {
+            "enabled": true,
+            "attack": 10,
+            "release": 325,
+            "hysteresis": 5,
+            "ratio": 6,
+            "threshold": -25,
+            "thresholdAutoEnabled": false,
+            "thresholdAutoSensibility": 20,
+            "attenuationMax": -20
+          },
+          "deEsser": {
+            "enabled": true,
+            "attack": 5,
+            "release": 300,
+            "ratio": 4,
+            "threshold": 0,
+            "frequency": 5500
+          },
+          "compressor": {
+            "enabled": true,
+            "attack": 3,
+            "release": 500,
+            "ratio": 3,
+            "threshold": -22,
+            "makeup": 1
+          },
+          "limiter": {
+            "boost": 3,
+            "attack": 5,
+            "release": 250
+          }
+        }
+      }
+    },
+    {
+      "id": "63f7b4c3-e442-40cc-96e0-9d561d07d066",
+      "name": "BLUE_VOICE_PRESET_BROADCASTER_1",
+      "attribute": "BLUE_VOICE_SETTINGS",
+      "readOnly": true,
+      "blueVoiceSettings": {
+        "description": {
+          "tag": "BLUE_PRESET",
+          "name": "BLUE_VOICE_PRESET_BROADCASTER_1"
+        },
+        "settings": {
+          "balance": 0,
+          "volume": 0.7,
+          "inputGain": 0.75,
+          "voiceEq": {
+            "enabled": true,
+            "low": {
+              "frequency": 200,
+              "gain": 4.4889164,
+              "width": 2
+            },
+            "mid": {
+              "frequency": 900,
+              "gain": 1.0854255,
+              "width": 1
+            },
+            "high": {
+              "frequency": 4000,
+              "gain": 3.8082182,
+              "width": 1
+            }
+          },
+          "dePopper": {
+            "enabled": true,
+            "frequency": 75
+          },
+          "noiseReduction": {
+            "enabled": true,
+            "release": 250,
+            "sensitivity": 6,
+            "bias": 3,
+            "attenuationMax": -18
+          },
+          "expander": {
+            "enabled": true,
+            "attack": 2,
+            "release": 100,
+            "hysteresis": 5,
+            "ratio": 4,
+            "threshold": -24,
+            "thresholdAutoEnabled": false,
+            "thresholdAutoSensibility": 20,
+            "attenuationMax": -20
+          },
+          "deEsser": {
+            "enabled": true,
+            "attack": 3,
+            "release": 250,
+            "ratio": 4,
+            "threshold": -6,
+            "frequency": 6000
+          },
+          "compressor": {
+            "enabled": true,
+            "attack": 2,
+            "release": 180,
+            "ratio": 3,
+            "threshold": -6,
+            "makeup": 1
+          },
+          "limiter": {
+            "boost": 4,
+            "attack": 5,
+            "release": 250
+          }
+        }
+      }
+    },
+    {
+      "id": "628f4c22-183a-43b6-b7c7-274045a26b1e",
+      "name": "BLUE_VOICE_PRESET_BROADCASTER_2",
+      "attribute": "BLUE_VOICE_SETTINGS",
+      "readOnly": true,
+      "blueVoiceSettings": {
+        "description": {
+          "tag": "BLUE_PRESET",
+          "name": "BLUE_VOICE_PRESET_BROADCASTER_2"
+        },
+        "settings": {
+          "balance": 0,
+          "volume": 0.7,
+          "inputGain": 0.75,
+          "voiceEq": {
+            "enabled": true,
+            "low": {
+              "frequency": 180,
+              "gain": 4.4889164,
+              "width": 2
+            },
+            "mid": {
+              "frequency": 720,
+              "gain": 1.0854255,
+              "width": 1
+            },
+            "high": {
+              "frequency": 6000,
+              "gain": 3.8082182,
+              "width": 1
+            }
+          },
+          "dePopper": {
+            "enabled": true,
+            "frequency": 75
+          },
+          "noiseReduction": {
+            "enabled": true,
+            "release": 200,
+            "sensitivity": 6,
+            "bias": 3,
+            "attenuationMax": -18
+          },
+          "expander": {
+            "enabled": true,
+            "attack": 5,
+            "release": 250,
+            "hysteresis": 5,
+            "ratio": 2,
+            "threshold": -48,
+            "thresholdAutoEnabled": false,
+            "thresholdAutoSensibility": 20,
+            "attenuationMax": -20
+          },
+          "deEsser": {
+            "enabled": true,
+            "attack": 5,
+            "release": 250,
+            "ratio": 4,
+            "threshold": 3,
+            "frequency": 5573
+          },
+          "compressor": {
+            "enabled": true,
+            "attack": 8,
+            "release": 250,
+            "ratio": 3,
+            "threshold": -6,
+            "makeup": 1
+          },
+          "limiter": {
+            "boost": 2,
+            "attack": 5,
+            "release": 250
+          }
+        }
+      }
+    },
+    {
+      "id": "26d16144-c655-4f5a-9f61-8254c0b78ac1",
+      "name": "BLUE_VOICE_PRESET_PRO_G2_SHOX",
+      "attribute": "BLUE_VOICE_SETTINGS",
+      "readOnly": true,
+      "blueVoiceSettings": {
+        "description": {
+          "tag": "PRO_PRESET",
+          "name": "BLUE_VOICE_PRESET_PRO_G2_SHOX"
+        },
+        "settings": {
+          "balance": 0,
+          "volume": 0.7,
+          "inputGain": 0.75,
+          "voiceEq": {
+            "enabled": true,
+            "high": {
+              "frequency": 4000,
+              "gain": 3.8082182,
+              "width": 1
+            },
+            "low": {
+              "frequency": 200,
+              "gain": 4.4889164,
+              "width": 2
+            },
+            "mid": {
+              "frequency": 900,
+              "gain": 1.0854255,
+              "width": 1
+            }
+          },
+          "dePopper": {
+            "enabled": true,
+            "frequency": 75
+          },
+          "noiseReduction": {
+            "attenuationMax": -18,
+            "bias": 3,
+            "enabled": true,
+            "release": 250,
+            "sensitivity": 6
+          },
+          "expander": {
+            "attack": 2,
+            "attenuationMax": -20,
+            "enabled": true,
+            "hysteresis": 5,
+            "ratio": 4,
+            "release": 100,
+            "threshold": -24,
+            "thresholdAutoSensibility": 20
+          },
+          "deEsser": {
+            "attack": 3,
+            "enabled": true,
+            "frequency": 6000,
+            "ratio": 4,
+            "release": 250,
+            "threshold": -6
+          },
+          "compressor": {
+            "attack": 2,
+            "enabled": true,
+            "makeup": 1,
+            "ratio": 3,
+            "release": 180,
+            "threshold": -6
+          },
+          "limiter": {
+            "attack": 5,
+            "boost": 3,
+            "release": 250
+          }
+        }
+      }
+    },
+    {
+      "id": "2a7e8d56-7506-4ee3-a218-726c0807bdc3",
+      "name": "BLUE_VOICE_PRESET_PRO_TSM_MYTH",
+      "attribute": "BLUE_VOICE_SETTINGS",
+      "readOnly": true,
+      "blueVoiceSettings": {
+        "description": {
+          "tag": "PRO_PRESET",
+          "name": "BLUE_VOICE_PRESET_PRO_TSM_MYTH"
+        },
+        "settings": {
+          "balance": 0,
+          "volume": 0.34,
+          "inputGain": 0.31,
+          "voiceEq": {
+            "enabled": true,
+            "low": {
+              "frequency": 200,
+              "gain": 3.9897377,
+              "width": 2
+            },
+            "mid": {
+              "frequency": 900,
+              "gain": 2.5375817,
+              "width": 1
+            },
+            "high": {
+              "frequency": 4000,
+              "gain": 3.8082182,
+              "width": 1
+            }
+          },
+          "dePopper": {
+            "enabled": true,
+            "frequency": 75
+          },
+          "noiseReduction": {
+            "enabled": true,
+            "release": 250,
+            "sensitivity": 6,
+            "bias": 3,
+            "attenuationMax": -18
+          },
+          "expander": {
+            "enabled": true,
+            "attack": 2,
+            "release": 100,
+            "hysteresis": 5,
+            "ratio": 4,
+            "threshold": -35,
+            "thresholdAutoEnabled": false,
+            "thresholdAutoSensibility": 20,
+            "attenuationMax": -20
+          },
+          "deEsser": {
+            "enabled": true,
+            "attack": 3,
+            "release": 250,
+            "ratio": 4,
+            "threshold": -6,
+            "frequency": 6000
+          },
+          "compressor": {
+            "enabled": true,
+            "attack": 2,
+            "release": 180,
+            "ratio": 3,
+            "threshold": -6,
+            "makeup": 1
+          },
+          "limiter": {
+            "boost": 3,
+            "attack": 5,
+            "release": 250
+          }
+        }
+      }
+    },
+    {
+      "id": "641faaf5-9c9e-4233-a5fa-d9de61d90a59",
+      "name": "BLUE_VOICE_PRESET_PRO_LONDON_SPITFIRE_PROFIT",
+      "attribute": "BLUE_VOICE_SETTINGS",
+      "readOnly": true,
+      "blueVoiceSettings": {
+        "description": {
+          "tag": "PRO_PRESET",
+          "name": "BLUE_VOICE_PRESET_PRO_LONDON_SPITFIRE_PROFIT"
+        },
+        "settings": {
+          "balance": 0,
+          "volume": 0.7,
+          "inputGain": 0.85,
+          "voiceEq": {
+            "enabled": true,
+            "high": {
+              "frequency": 5000,
+              "gain": 3.8082182,
+              "width": 1
+            },
+            "low": {
+              "frequency": 220,
+              "gain": 4.4889164,
+              "width": 1
+            },
+            "mid": {
+              "frequency": 600,
+              "gain": 1.3123249,
+              "width": 1
+            }
+          },
+          "dePopper": {
+            "enabled": true,
+            "frequency": 90
+          },
+          "noiseReduction": {
+            "attenuationMax": -18,
+            "bias": 2.5,
+            "enabled": true,
+            "release": 100,
+            "sensitivity": 6
+          },
+          "expander": {
+            "attack": 10,
+            "attenuationMax": -20,
+            "enabled": true,
+            "hysteresis": 5,
+            "ratio": 6,
+            "release": 325,
+            "threshold": -30,
+            "thresholdAutoSensibility": 20
+          },
+          "deEsser": {
+            "attack": 2,
+            "enabled": true,
+            "frequency": 6000,
+            "ratio": 3,
+            "release": 200,
+            "threshold": -6
+          },
+          "compressor": {
+            "attack": 2,
+            "enabled": true,
+            "makeup": 1,
+            "ratio": 3,
+            "release": 400,
+            "threshold": -20
+          },
+          "limiter": {
+            "attack": 5,
+            "boost": 6,
+            "release": 250
+          }
+        }
+      }
+    },
+    {
+      "id": "d8df9e5f-0611-4f16-80aa-f2322a38a6d4",
+      "name": "BLUE_VOICE_PRESET_PRO_TSM_DAEQUAN",
+      "attribute": "BLUE_VOICE_SETTINGS",
+      "readOnly": true,
+      "blueVoiceSettings": {
+        "description": {
+          "tag": "PRO_PRESET",
+          "name": "BLUE_VOICE_PRESET_PRO_TSM_DAEQUAN"
+        },
+        "settings": {
+          "balance": 0,
+          "volume": 0.58,
+          "inputGain": 0.5,
+          "voiceEq": {
+            "enabled": true,
+            "low": {
+              "frequency": 180,
+              "gain": 4.171257,
+              "width": 2
+            },
+            "mid": {
+              "frequency": 720,
+              "gain": 1.629984,
+              "width": 1
+            },
+            "high": {
+              "frequency": 6000,
+              "gain": 3.8082182,
+              "width": 1
+            }
+          },
+          "dePopper": {
+            "enabled": true,
+            "frequency": 75
+          },
+          "noiseReduction": {
+            "enabled": true,
+            "release": 200,
+            "sensitivity": 6,
+            "bias": 3,
+            "attenuationMax": -18
+          },
+          "expander": {
+            "enabled": true,
+            "attack": 5,
+            "release": 250,
+            "hysteresis": 5,
+            "ratio": 2,
+            "threshold": -48,
+            "thresholdAutoEnabled": false,
+            "thresholdAutoSensibility": 20,
+            "attenuationMax": -20
+          },
+          "deEsser": {
+            "enabled": true,
+            "attack": 5,
+            "release": 250,
+            "ratio": 4,
+            "threshold": 3,
+            "frequency": 5573
+          },
+          "compressor": {
+            "enabled": true,
+            "attack": 8,
+            "release": 250,
+            "ratio": 3,
+            "threshold": -6,
+            "makeup": 1
+          },
+          "limiter": {
+            "boost": 2,
+            "attack": 5,
+            "release": 250
+          }
+        }
+      }
+    },
+    {
+      "id": "51eca924-8bd9-4e60-8466-5cc9972d7a98",
+      "name": "BLUE_VOICE_PRESET_PRO_TSM_HAMLINZ",
+      "attribute": "BLUE_VOICE_SETTINGS",
+      "readOnly": true,
+      "blueVoiceSettings": {
+        "description": {
+          "tag": "PRO_PRESET",
+          "name": "BLUE_VOICE_PRESET_PRO_TSM_HAMLINZ"
+        },
+        "settings": {
+          "balance": 0,
+          "volume": 0.32,
+          "inputGain": 0.46,
+          "voiceEq": {
+            "enabled": true,
+            "low": {
+              "frequency": 180,
+              "gain": 4.4889164,
+              "width": 2
+            },
+            "mid": {
+              "frequency": 400,
+              "gain": 3.8082182,
+              "width": 1
+            },
+            "high": {
+              "frequency": 3000,
+              "gain": 2.1745427,
+              "width": 1
+            }
+          },
+          "dePopper": {
+            "enabled": true,
+            "frequency": 75
+          },
+          "noiseReduction": {
+            "enabled": true,
+            "release": 200,
+            "sensitivity": 9,
+            "bias": 2.5,
+            "attenuationMax": -18
+          },
+          "expander": {
+            "enabled": true,
+            "attack": 5,
+            "release": 250,
+            "hysteresis": 5,
+            "ratio": 6,
+            "threshold": -25,
+            "thresholdAutoEnabled": false,
+            "thresholdAutoSensibility": 20,
+            "attenuationMax": -20
+          },
+          "deEsser": {
+            "enabled": true,
+            "attack": 5,
+            "release": 250,
+            "ratio": 3,
+            "threshold": -6,
+            "frequency": 5500
+          },
+          "compressor": {
+            "enabled": true,
+            "attack": 10,
+            "release": 500,
+            "ratio": 3,
+            "threshold": -18,
+            "makeup": 1
+          },
+          "limiter": {
+            "boost": 3,
+            "attack": 5,
+            "release": 250
+          }
+        }
+      }
+    },
+    {
+      "id": "9c5c09b5-0305-45ea-9eee-a224b1ba66c3",
+      "name": "BLUE_VOICE_PRESET_PRO_TSM_ABLAZEOLIVE",
+      "attribute": "BLUE_VOICE_SETTINGS",
+      "readOnly": true,
+      "blueVoiceSettings": {
+        "description": {
+          "tag": "PRO_PRESET",
+          "name": "BLUE_VOICE_PRESET_PRO_TSM_ABLAZEOLIVE"
+        },
+        "settings": {
+          "balance": 0,
+          "volume": 0.8,
+          "inputGain": 0.75,
+          "voiceEq": {
+            "enabled": true,
+            "low": {
+              "frequency": 200,
+              "gain": 4.4889164,
+              "width": 2
+            },
+            "mid": {
+              "frequency": 900,
+              "gain": 1.0854255,
+              "width": 1
+            },
+            "high": {
+              "frequency": 4000,
+              "gain": 3.8082182,
+              "width": 1
+            }
+          },
+          "dePopper": {
+            "enabled": true,
+            "frequency": 75
+          },
+          "noiseReduction": {
+            "enabled": true,
+            "release": 250,
+            "sensitivity": 6,
+            "bias": 3,
+            "attenuationMax": -18
+          },
+          "expander": {
+            "enabled": true,
+            "attack": 2,
+            "release": 100,
+            "hysteresis": 5,
+            "ratio": 4,
+            "threshold": -24,
+            "thresholdAutoEnabled": false,
+            "thresholdAutoSensibility": 20,
+            "attenuationMax": -20
+          },
+          "deEsser": {
+            "enabled": true,
+            "attack": 3,
+            "release": 250,
+            "ratio": 4,
+            "threshold": -6,
+            "frequency": 6000
+          },
+          "compressor": {
+            "enabled": true,
+            "attack": 2,
+            "release": 180,
+            "ratio": 3,
+            "threshold": -6,
+            "makeup": 1
+          },
+          "limiter": {
+            "boost": 4,
+            "attack": 5,
+            "release": 250
+          }
+        }
+      }
+    },
+    {
+      "id": "f5ccde7c-9561-46d5-b720-f480dd705cb5",
+      "name": "BLUE_VOICE_PRESET_PRO_TSM_TACTICAL",
+      "attribute": "BLUE_VOICE_SETTINGS",
+      "readOnly": true,
+      "blueVoiceSettings": {
+        "description": {
+          "tag": "PRO_PRESET",
+          "name": "BLUE_VOICE_PRESET_PRO_TSM_TACTICAL"
+        },
+        "settings": {
+          "balance": 0,
+          "volume": 0.76,
+          "inputGain": 0.81,
+          "voiceEq": {
+            "enabled": true,
+            "low": {
+              "frequency": 200,
+              "gain": 4.3527765,
+              "width": 2
+            },
+            "mid": {
+              "frequency": 900,
+              "gain": 1.0854255,
+              "width": 1
+            },
+            "high": {
+              "frequency": 4000,
+              "gain": 3.8082182,
+              "width": 1
+            }
+          },
+          "dePopper": {
+            "enabled": true,
+            "frequency": 75
+          },
+          "noiseReduction": {
+            "enabled": true,
+            "release": 250,
+            "sensitivity": 6,
+            "bias": 3,
+            "attenuationMax": -18
+          },
+          "expander": {
+            "enabled": true,
+            "attack": 2,
+            "release": 100,
+            "hysteresis": 5,
+            "ratio": 4,
+            "threshold": -24,
+            "thresholdAutoEnabled": false,
+            "thresholdAutoSensibility": 20,
+            "attenuationMax": -20
+          },
+          "deEsser": {
+            "enabled": true,
+            "attack": 3,
+            "release": 250,
+            "ratio": 4,
+            "threshold": -6,
+            "frequency": 6000
+          },
+          "compressor": {
+            "enabled": true,
+            "attack": 2,
+            "release": 180,
+            "ratio": 3,
+            "threshold": -6,
+            "makeup": 1
+          },
+          "limiter": {
+            "boost": 4,
+            "attack": 5,
+            "release": 250
+          }
+        }
+      }
+    },
+    {
+      "id": "eb22e57e-fd7d-45c6-bfa1-fd2dbb8cf9c1",
+      "name": "BLUE_VOICE_PRESET_PRO_TSM_SPICA",
+      "attribute": "BLUE_VOICE_SETTINGS",
+      "readOnly": true,
+      "blueVoiceSettings": {
+        "description": {
+          "tag": "PRO_PRESET",
+          "name": "BLUE_VOICE_PRESET_PRO_TSM_SPICA"
+        },
+        "settings": {
+          "balance": 0,
+          "volume": 0.8,
+          "inputGain": 0.75,
+          "voiceEq": {
+            "enabled": true,
+            "low": {
+              "frequency": 180,
+              "gain": 4.4889164,
+              "width": 2
+            },
+            "mid": {
+              "frequency": 720,
+              "gain": 1.0854255,
+              "width": 1
+            },
+            "high": {
+              "frequency": 6000,
+              "gain": 3.8082182,
+              "width": 1
+            }
+          },
+          "dePopper": {
+            "enabled": true,
+            "frequency": 75
+          },
+          "noiseReduction": {
+            "enabled": true,
+            "release": 200,
+            "sensitivity": 6,
+            "bias": 3,
+            "attenuationMax": -18
+          },
+          "expander": {
+            "enabled": true,
+            "attack": 5,
+            "release": 250,
+            "hysteresis": 5,
+            "ratio": 2,
+            "threshold": -48,
+            "thresholdAutoEnabled": false,
+            "thresholdAutoSensibility": 20,
+            "attenuationMax": -20
+          },
+          "deEsser": {
+            "enabled": true,
+            "attack": 5,
+            "release": 250,
+            "ratio": 4,
+            "threshold": 3,
+            "frequency": 5573
+          },
+          "compressor": {
+            "enabled": true,
+            "attack": 8,
+            "release": 250,
+            "ratio": 3,
+            "threshold": -6,
+            "makeup": 1
+          },
+          "limiter": {
+            "boost": 2,
+            "attack": 5,
+            "release": 250
+          }
+        }
+      }
+    },
+    {
+      "id": "6d344065-2e34-4c0c-9c4f-05e0f825a0cd",
+      "name": "Broadcaster 1",
+      "attribute": "BLUE_VOICE_SETTINGS",
+      "readOnly": true,
+      "blueVoiceSettings": {
+        "description": {
+          "tag": "MICROPHONE_PRESET",
+          "name": "00_Broadcaster 1"
+        },
+        "settings": {
+          "balance": 0,
+          "volume": 0.6,
+          "inputGain": 0.61,
+          "voiceEq": {
+            "enabled": true,
+            "low": {
+              "frequency": 180,
+              "gain": 1.9952623,
+              "width": 1
+            },
+            "mid": {
+              "frequency": 470,
+              "gain": 0.3548134,
+              "width": 1
+            },
+            "high": {
+              "frequency": 4000,
+              "gain": 1.9952623,
+              "width": 1
+            }
+          },
+          "dePopper": {
+            "enabled": true,
+            "frequency": 70
+          },
+          "noiseReduction": {
+            "enabled": true,
+            "release": 250,
+            "sensitivity": 6,
+            "bias": 3,
+            "attenuationMax": -12
+          },
+          "expander": {
+            "enabled": true,
+            "attack": 2,
+            "release": 100,
+            "hysteresis": 5,
+            "ratio": 4,
+            "threshold": -32,
+            "thresholdAutoEnabled": false,
+            "thresholdAutoSensibility": 20,
+            "attenuationMax": -20
+          },
+          "deEsser": {
+            "enabled": true,
+            "attack": 5,
+            "release": 250,
+            "ratio": 4,
+            "threshold": -12,
+            "frequency": 5500
+          },
+          "compressor": {
+            "enabled": true,
+            "attack": 2,
+            "release": 180,
+            "ratio": 3,
+            "threshold": -6,
+            "makeup": 1
+          },
+          "limiter": {
+            "boost": 3.9810717,
+            "attack": 5,
+            "release": 250
+          }
+        }
+      }
+    },
+    {
+      "id": "319095c0-1109-42d0-8e50-fec19cdd081d",
+      "name": "Broadcaster 2",
+      "attribute": "BLUE_VOICE_SETTINGS",
+      "readOnly": true,
+      "blueVoiceSettings": {
+        "description": {
+          "tag": "MICROPHONE_PRESET",
+          "name": "01_Broadcaster 2"
+        },
+        "settings": {
+          "balance": 0,
+          "volume": 0.6,
+          "inputGain": 0.6,
+          "voiceEq": {
+            "enabled": true,
+            "low": {
+              "frequency": 180,
+              "gain": 1.9952623,
+              "width": 2
+            },
+            "mid": {
+              "frequency": 720,
+              "gain": 0.3548134,
+              "width": 1
+            },
+            "high": {
+              "frequency": 6000,
+              "gain": 1.9952623,
+              "width": 1
+            }
+          },
+          "dePopper": {
+            "enabled": true,
+            "frequency": 75
+          },
+          "noiseReduction": {
+            "enabled": true,
+            "release": 250,
+            "sensitivity": 6,
+            "bias": 3,
+            "attenuationMax": -18
+          },
+          "expander": {
+            "enabled": true,
+            "attack": 5,
+            "release": 250,
+            "hysteresis": 5,
+            "ratio": 2,
+            "threshold": -24,
+            "thresholdAutoEnabled": false,
+            "thresholdAutoSensibility": 20,
+            "attenuationMax": -20
+          },
+          "deEsser": {
+            "enabled": true,
+            "attack": 5,
+            "release": 250,
+            "ratio": 4,
+            "threshold": -12,
+            "frequency": 7000
+          },
+          "compressor": {
+            "enabled": true,
+            "attack": 8,
+            "release": 250,
+            "ratio": 3,
+            "threshold": -6,
+            "makeup": 1
+          },
+          "limiter": {
+            "boost": 2,
+            "attack": 5,
+            "release": 250
+          }
+        }
+      }
+    },
+    {
+      "id": "e4098c51-ca1f-4020-80d8-9556093b53cb",
+      "name": "Classic Radio Voice",
+      "attribute": "BLUE_VOICE_SETTINGS",
+      "readOnly": true,
+      "blueVoiceSettings": {
+        "description": {
+          "tag": "MICROPHONE_PRESET",
+          "name": "02_Classic Radio Voice"
+        },
+        "settings": {
+          "balance": 0,
+          "volume": 0.6,
+          "inputGain": 0.6,
+          "voiceEq": {
+            "enabled": true,
+            "low": {
+              "frequency": 100,
+              "gain": 2.5118864,
+              "width": 2
+            },
+            "mid": {
+              "frequency": 900,
+              "gain": 0.31622776,
+              "width": 1
+            },
+            "high": {
+              "frequency": 4000,
+              "gain": 2.2387211,
+              "width": 1
+            }
+          },
+          "dePopper": {
+            "enabled": true,
+            "frequency": 60
+          },
+          "noiseReduction": {
+            "enabled": true,
+            "release": 250,
+            "sensitivity": 6,
+            "bias": 3,
+            "attenuationMax": -18
+          },
+          "expander": {
+            "enabled": true,
+            "attack": 2,
+            "release": 100,
+            "hysteresis": 5,
+            "ratio": 4,
+            "threshold": -24,
+            "thresholdAutoEnabled": false,
+            "thresholdAutoSensibility": 20,
+            "attenuationMax": -20
+          },
+          "deEsser": {
+            "enabled": true,
+            "attack": 3,
+            "release": 250,
+            "ratio": 4,
+            "threshold": -18,
+            "frequency": 7000
+          },
+          "compressor": {
+            "enabled": true,
+            "attack": 10,
+            "release": 250,
+            "ratio": 12,
+            "threshold": -20,
+            "makeup": 1
+          },
+          "limiter": {
+            "boost": 4.466836,
+            "attack": 5,
+            "release": 250
+          }
+        }
+      }
+    },
+    {
+      "id": "5f4c3eac-c600-4966-ac65-b029ff3a10cf",
+      "name": "Crisp and Modern",
+      "attribute": "BLUE_VOICE_SETTINGS",
+      "readOnly": true,
+      "blueVoiceSettings": {
+        "description": {
+          "tag": "MICROPHONE_PRESET",
+          "name": "09_Crisp and Modern"
+        },
+        "settings": {
+          "balance": 0,
+          "volume": 0.6,
+          "inputGain": 0.6,
+          "voiceEq": {
+            "enabled": true,
+            "low": {
+              "frequency": 160,
+              "gain": 1.9952623,
+              "width": 1
+            },
+            "mid": {
+              "frequency": 500,
+              "gain": 0.3548134,
+              "width": 0.5
+            },
+            "high": {
+              "frequency": 5000,
+              "gain": 2.818383,
+              "width": 2
+            }
+          },
+          "dePopper": {
+            "enabled": true,
+            "frequency": 70
+          },
+          "noiseReduction": {
+            "enabled": true,
+            "release": 225,
+            "sensitivity": 11,
+            "bias": 2,
+            "attenuationMax": -18
+          },
+          "expander": {
+            "enabled": true,
+            "attack": 10,
+            "release": 250,
+            "hysteresis": 5,
+            "ratio": 6,
+            "threshold": -25,
+            "thresholdAutoEnabled": false,
+            "thresholdAutoSensibility": 20,
+            "attenuationMax": -20
+          },
+          "deEsser": {
+            "enabled": true,
+            "attack": 5,
+            "release": 250,
+            "ratio": 3,
+            "threshold": -12,
+            "frequency": 7000
+          },
+          "compressor": {
+            "enabled": true,
+            "attack": 10,
+            "release": 250,
+            "ratio": 3,
+            "threshold": -18,
+            "makeup": 1
+          },
+          "limiter": {
+            "boost": 5.6234131,
+            "attack": 5,
+            "release": 250
+          }
+        }
+      }
+    },
+    {
+      "id": "a1d1913a-8202-4df0-96f1-4ce433401fda",
+      "name": "FM Station",
+      "attribute": "BLUE_VOICE_SETTINGS",
+      "readOnly": true,
+      "blueVoiceSettings": {
+        "description": {
+          "tag": "MICROPHONE_PRESET",
+          "name": "03_FM Station"
+        },
+        "settings": {
+          "balance": 0,
+          "volume": 0.6,
+          "inputGain": 0.6,
+          "voiceEq": {
+            "enabled": true,
+            "low": {
+              "frequency": 160,
+              "gain": 2.5118864,
+              "width": 3
+            },
+            "mid": {
+              "frequency": 410,
+              "gain": 0.3548134,
+              "width": 1
+            },
+            "high": {
+              "frequency": 5000,
+              "gain": 1.9952623,
+              "width": 1
+            }
+          },
+          "dePopper": {
+            "enabled": true,
+            "frequency": 75
+          },
+          "noiseReduction": {
+            "enabled": true,
+            "release": 100,
+            "sensitivity": 6,
+            "bias": 2.5,
+            "attenuationMax": -12
+          },
+          "expander": {
+            "enabled": true,
+            "attack": 5,
+            "release": 250,
+            "hysteresis": 5,
+            "ratio": 2,
+            "threshold": -32,
+            "thresholdAutoEnabled": false,
+            "thresholdAutoSensibility": 20,
+            "attenuationMax": -20
+          },
+          "deEsser": {
+            "enabled": true,
+            "attack": 5,
+            "release": 250,
+            "ratio": 4,
+            "threshold": -16,
+            "frequency": 7000
+          },
+          "compressor": {
+            "enabled": true,
+            "attack": 5,
+            "release": 250,
+            "ratio": 12,
+            "threshold": -12,
+            "makeup": 1
+          },
+          "limiter": {
+            "boost": 4,
+            "attack": 5,
+            "release": 250
+          }
+        }
+      }
+    },
+    {
+      "id": "3d30f760-5b9f-4513-a803-7c1a47d2b65a",
+      "name": "High Voice - Loud",
+      "attribute": "BLUE_VOICE_SETTINGS",
+      "readOnly": true,
+      "blueVoiceSettings": {
+        "description": {
+          "tag": "MICROPHONE_PRESET",
+          "name": "04_High Voice - Loud"
+        },
+        "settings": {
+          "balance": 0,
+          "volume": 0.6,
+          "inputGain": 0.6,
+          "voiceEq": {
+            "enabled": true,
+            "low": {
+              "frequency": 220,
+              "gain": 2.5118864,
+              "width": 1
+            },
+            "mid": {
+              "frequency": 600,
+              "gain": 0.3548134,
+              "width": 1
+            },
+            "high": {
+              "frequency": 5000,
+              "gain": 1.9952623,
+              "width": 1
+            }
+          },
+          "dePopper": {
+            "enabled": true,
+            "frequency": 90
+          },
+          "noiseReduction": {
+            "enabled": true,
+            "release": 75,
+            "sensitivity": 9,
+            "bias": 2,
+            "attenuationMax": -18
+          },
+          "expander": {
+            "enabled": true,
+            "attack": 10,
+            "release": 325,
+            "hysteresis": 5,
+            "ratio": 6,
+            "threshold": -34,
+            "thresholdAutoEnabled": false,
+            "thresholdAutoSensibility": 20,
+            "attenuationMax": -20
+          },
+          "deEsser": {
+            "enabled": true,
+            "attack": 5,
+            "release": 250,
+            "ratio": 4,
+            "threshold": -9,
+            "frequency": 7500
+          },
+          "compressor": {
+            "enabled": true,
+            "attack": 5,
+            "release": 250,
+            "ratio": 3,
+            "threshold": -22,
+            "makeup": 1
+          },
+          "limiter": {
+            "boost": 3.9810717,
+            "attack": 5,
+            "release": 250
+          }
+        }
+      }
+    },
+    {
+      "id": "29665c85-3ea7-49e4-a660-225fdb1568bf",
+      "name": "High Voice - Soft",
+      "attribute": "BLUE_VOICE_SETTINGS",
+      "readOnly": true,
+      "blueVoiceSettings": {
+        "description": {
+          "tag": "MICROPHONE_PRESET",
+          "name": "05_High Voice - Soft"
+        },
+        "settings": {
+          "balance": 0,
+          "volume": 0.6,
+          "inputGain": 0.7,
+          "voiceEq": {
+            "enabled": true,
+            "low": {
+              "frequency": 220,
+              "gain": 2.5118864,
+              "width": 1
+            },
+            "mid": {
+              "frequency": 600,
+              "gain": 0.3548134,
+              "width": 1
+            },
+            "high": {
+              "frequency": 5000,
+              "gain": 1.7782794,
+              "width": 1
+            }
+          },
+          "dePopper": {
+            "enabled": true,
+            "frequency": 90
+          },
+          "noiseReduction": {
+            "enabled": true,
+            "release": 100,
+            "sensitivity": 9,
+            "bias": 2,
+            "attenuationMax": -18
+          },
+          "expander": {
+            "enabled": true,
+            "attack": 10,
+            "release": 325,
+            "hysteresis": 5,
+            "ratio": 6,
+            "threshold": -24,
+            "thresholdAutoEnabled": false,
+            "thresholdAutoSensibility": 20,
+            "attenuationMax": -20
+          },
+          "deEsser": {
+            "enabled": true,
+            "attack": 5,
+            "release": 250,
+            "ratio": 4,
+            "threshold": -12,
+            "frequency": 7500
+          },
+          "compressor": {
+            "enabled": true,
+            "attack": 5,
+            "release": 500,
+            "ratio": 3,
+            "threshold": -12,
+            "makeup": 1
+          },
+          "limiter": {
+            "boost": 6,
+            "attack": 5,
+            "release": 250
+          }
+        }
+      }
+    },
+    {
+      "id": "3bc3140c-73e9-4aeb-be98-efe1861b5b70",
+      "name": "Low Voice - Loud",
+      "attribute": "BLUE_VOICE_SETTINGS",
+      "readOnly": true,
+      "blueVoiceSettings": {
+        "description": {
+          "tag": "MICROPHONE_PRESET",
+          "name": "06_Low Voice - Loud"
+        },
+        "settings": {
+          "balance": 0,
+          "volume": 0.6,
+          "inputGain": 0.6,
+          "voiceEq": {
+            "enabled": true,
+            "low": {
+              "frequency": 180,
+              "gain": 1.9952623,
+              "width": 2
+            },
+            "mid": {
+              "frequency": 400,
+              "gain": 0.3548134,
+              "width": 1
+            },
+            "high": {
+              "frequency": 3000,
+              "gain": 2.5118864,
+              "width": 1
+            }
+          },
+          "dePopper": {
+            "enabled": true,
+            "frequency": 75
+          },
+          "noiseReduction": {
+            "enabled": true,
+            "release": 200,
+            "sensitivity": 9,
+            "bias": 2.5,
+            "attenuationMax": -18
+          },
+          "expander": {
+            "enabled": true,
+            "attack": 5,
+            "release": 250,
+            "hysteresis": 5,
+            "ratio": 6,
+            "threshold": -25,
+            "thresholdAutoEnabled": false,
+            "thresholdAutoSensibility": 20,
+            "attenuationMax": -20
+          },
+          "deEsser": {
+            "enabled": true,
+            "attack": 5,
+            "release": 250,
+            "ratio": 3,
+            "threshold": -12,
+            "frequency": 5500
+          },
+          "compressor": {
+            "enabled": true,
+            "attack": 10,
+            "release": 500,
+            "ratio": 3,
+            "threshold": -18,
+            "makeup": 1
+          },
+          "limiter": {
+            "boost": 3.9810717,
+            "attack": 5,
+            "release": 250
+          }
+        }
+      }
+    },
+    {
+      "id": "afd6ce93-cf10-49d9-8967-1c80f1f55eeb",
+      "name": "Low Voice - Soft",
+      "attribute": "BLUE_VOICE_SETTINGS",
+      "readOnly": true,
+      "blueVoiceSettings": {
+        "description": {
+          "tag": "MICROPHONE_PRESET",
+          "name": "07_Low Voice - Soft"
+        },
+        "settings": {
+          "balance": 0,
+          "volume": 0.6,
+          "inputGain": 0.7,
+          "voiceEq": {
+            "enabled": true,
+            "low": {
+              "frequency": 180,
+              "gain": 2.2387211,
+              "width": 1
+            },
+            "mid": {
+              "frequency": 400,
+              "gain": 0.39810717,
+              "width": 1
+            },
+            "high": {
+              "frequency": 3000,
+              "gain": 1.9952623,
+              "width": 1
+            }
+          },
+          "dePopper": {
+            "enabled": true,
+            "frequency": 75
+          },
+          "noiseReduction": {
+            "enabled": true,
+            "release": 100,
+            "sensitivity": 9,
+            "bias": 2,
+            "attenuationMax": -18
+          },
+          "expander": {
+            "enabled": true,
+            "attack": 5,
+            "release": 250,
+            "hysteresis": 5,
+            "ratio": 4,
+            "threshold": -32,
+            "thresholdAutoEnabled": false,
+            "thresholdAutoSensibility": 20,
+            "attenuationMax": -20
+          },
+          "deEsser": {
+            "enabled": true,
+            "attack": 5,
+            "release": 250,
+            "ratio": 3,
+            "threshold": -6,
+            "frequency": 5500
+          },
+          "compressor": {
+            "enabled": true,
+            "attack": 10,
+            "release": 250,
+            "ratio": 3,
+            "threshold": -18,
+            "makeup": 1
+          },
+          "limiter": {
+            "boost": 6,
+            "attack": 5,
+            "release": 250
+          }
+        }
+      }
+    },
+    {
+      "id": "405c612b-3696-4910-a15b-7eb2dac8574b",
+      "name": "AM Radio",
+      "attribute": "BLUE_VOICE_SETTINGS",
+      "readOnly": true,
+      "blueVoiceSettings": {
+        "description": {
+          "tag": "MICROPHONE_PRESET",
+          "name": "08_AM Radio"
+        },
+        "settings": {
+          "balance": 0,
+          "volume": 0.6,
+          "inputGain": 0.6,
+          "voiceEq": {
+            "enabled": true,
+            "low": {
+              "frequency": 280,
+              "gain": 0.56234133,
+              "width": 0.5
+            },
+            "mid": {
+              "frequency": 1000,
+              "gain": 3.5481339,
+              "width": 2
+            },
+            "high": {
+              "frequency": 5000,
+              "gain": 0.3548134,
+              "width": 0.5
+            }
+          },
+          "dePopper": {
+            "enabled": true,
+            "frequency": 90
+          },
+          "noiseReduction": {
+            "enabled": true,
+            "release": 250,
+            "sensitivity": 6,
+            "bias": 4,
+            "attenuationMax": -18
+          },
+          "expander": {
+            "enabled": true,
+            "attack": 5,
+            "release": 250,
+            "hysteresis": 5,
+            "ratio": 4,
+            "threshold": -24,
+            "thresholdAutoEnabled": false,
+            "thresholdAutoSensibility": 20,
+            "attenuationMax": -20
+          },
+          "deEsser": {
+            "enabled": true,
+            "attack": 5,
+            "release": 250,
+            "ratio": 2,
+            "threshold": -18,
+            "frequency": 5000
+          },
+          "compressor": {
+            "enabled": true,
+            "attack": 5,
+            "release": 250,
+            "ratio": 20,
+            "threshold": -18,
+            "makeup": 1
+          },
+          "limiter": {
+            "boost": 3.9810717,
+            "attack": 5,
+            "release": 250
+          }
+        }
+      }
+    },
+    {
+      "id": "297cfa4c-ceb5-4c27-bbdc-6067ad243f1a",
+      "name": "Warm and Vintage",
+      "attribute": "BLUE_VOICE_SETTINGS",
+      "readOnly": true,
+      "blueVoiceSettings": {
+        "description": {
+          "tag": "MICROPHONE_PRESET",
+          "name": "10_Warm and Vintage"
+        },
+        "settings": {
+          "balance": 0,
+          "volume": 0.61,
+          "inputGain": 0.6,
+          "voiceEq": {
+            "enabled": true,
+            "low": {
+              "frequency": 140,
+              "gain": 2.2387211,
+              "width": 1
+            },
+            "mid": {
+              "frequency": 800,
+              "gain": 0.44668359,
+              "width": 1
+            },
+            "high": {
+              "frequency": 4000,
+              "gain": 1.4125376,
+              "width": 0.5
+            }
+          },
+          "dePopper": {
+            "enabled": true,
+            "frequency": 40
+          },
+          "noiseReduction": {
+            "enabled": true,
+            "release": 250,
+            "sensitivity": 6,
+            "bias": 3,
+            "attenuationMax": -18
+          },
+          "expander": {
+            "enabled": true,
+            "attack": 2,
+            "release": 100,
+            "hysteresis": 5,
+            "ratio": 4,
+            "threshold": -24,
+            "thresholdAutoEnabled": false,
+            "thresholdAutoSensibility": 20,
+            "attenuationMax": -20
+          },
+          "deEsser": {
+            "enabled": true,
+            "attack": 3,
+            "release": 250,
+            "ratio": 6,
+            "threshold": -12,
+            "frequency": 5000
+          },
+          "compressor": {
+            "enabled": true,
+            "attack": 10,
+            "release": 250,
+            "ratio": 3,
+            "threshold": -12,
+            "makeup": 1
+          },
+          "limiter": {
+            "boost": 4,
+            "attack": 5,
+            "release": 250
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,5509 @@
+{
+  "devices": [
+    {
+      "modelId": "4kpro",
+      "displayName": "BRIO 4K STREAM",
+      "extendedDisplayName": "BRIO 4K STREAM",
+      "slotPrefix": "4kpro",
+      "type": "camera",
+      "depot": "brio",
+      "thumbnail": "pipeline://core/thumbnails/brio.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "uvc",
+                "id": "046d_086b"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "webcam": {
+          "camera": {
+            "fov": [
+              "65",
+              "78",
+              "90"
+            ],
+            "hdr": true
+          }
+        }
+      }
+    },
+    {
+      "modelId": "brio",
+      "displayName": "BRIO",
+      "extendedDisplayName": "Logitech BRIO",
+      "slotPrefix": "brio",
+      "type": "camera",
+      "depot": "brio",
+      "thumbnail": "pipeline://core/thumbnails/brio.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "uvc",
+                "id": "046d_085e"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "webcam": {
+          "camera": {
+            "fov": [
+              "65",
+              "78",
+              "90"
+            ],
+            "hdr": true
+          }
+        }
+      }
+    },
+    {
+      "modelId": "c920",
+      "displayName": "C920",
+      "extendedDisplayName": "HD Pro Webcam C920",
+      "slotPrefix": "c920",
+      "type": "camera",
+      "depot": "c920",
+      "thumbnail": "pipeline://core/thumbnails/c920.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "uvc",
+                "id": "046d_082d",
+                "derivatives": [
+                  {
+                    "id": "046d_0892"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "modelId": "c922",
+      "displayName": "1080p Pro",
+      "extendedDisplayName": "1080p Pro Stream Webcam",
+      "slotPrefix": "c922",
+      "type": "camera",
+      "depot": "c922",
+      "thumbnail": "pipeline://core/thumbnails/c922.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "uvc",
+                "id": "046d_0883",
+                "derivatives": [
+                  {
+                    "id": "046d_0894"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "modelId": "c922",
+      "displayName": "C922",
+      "extendedDisplayName": "C922 HD Pro Webcam",
+      "slotPrefix": "c922",
+      "type": "camera",
+      "depot": "c922",
+      "thumbnail": "pipeline://core/thumbnails/c922.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "uvc",
+                "id": "046d_085c"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "modelId": "g203_2",
+      "displayName": "G203",
+      "extendedDisplayName": "G203 Prodigy Gaming Mouse",
+      "slotPrefix": "g203",
+      "type": "mouse",
+      "depot": "g203",
+      "thumbnail": "pipeline://core/thumbnails/g203_black.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c084",
+                "extendedModel": 2,
+                "derivatives": [
+                  {
+                    "id": "046d_c084",
+                    "extendedModel": 0,
+                    "modelId": "g203_0",
+                    "displayName": "G102",
+                    "thumbnail": "pipeline://core/thumbnails/g203_white.png",
+                    "extendedDisplayName": "G102 Prodigy Gaming Mouse"
+                  },
+                  {
+                    "id": "046d_c084",
+                    "extendedModel": 1,
+                    "modelId": "g203_1",
+                    "displayName": "G102",
+                    "thumbnail": "pipeline://core/thumbnails/g203_black.png",
+                    "extendedDisplayName": "G102 Prodigy Gaming Mouse"
+                  },
+                  {
+                    "id": "046d_c084",
+                    "extendedModel": 3,
+                    "modelId": "g203_3",
+                    "thumbnail": "pipeline://core/thumbnails/g203_white.png",
+                    "extendedDisplayName": "G203 Prodigy Gaming Mouse"
+                  },
+                  {
+                    "id": "046d_c084",
+                    "extendedModel": 4,
+                    "modelId": "g203_4",
+                    "displayName": "G103",
+                    "thumbnail": "pipeline://core/thumbnails/g203_black.png",
+                    "extendedDisplayName": "G103 Prodigy Gaming Mouse"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "lightingSupport": {
+          "deviceCategory": "MOUSE_RGB_ZONAL",
+          "typeMap": {
+            "ZONE_BRANDING": "LOGO"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_BRANDING",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "modelId": "g213",
+      "displayName": "G213",
+      "extendedDisplayName": "G213 Prodigy Keyboard",
+      "slotPrefix": "g213",
+      "type": "keyboard",
+      "depotPrefix": "g213",
+      "thumbnail": "pipeline://core/thumbnails/g213.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c336"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "lightingSupport": {
+          "deviceCategory": "KEYBOARD_RGB_ZONAL",
+          "typeMap": {
+            "ZONE_PRIMARY": "PRIMARY",
+            "ZONE_ONE": "ZONAL_ONE",
+            "ZONE_TWO": "ZONAL_TWO",
+            "ZONE_THREE": "ZONAL_THREE",
+            "ZONE_FOUR": "ZONAL_FOUR",
+            "ZONE_FIVE": "ZONAL_FIVE"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_PRIMARY",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true,
+                  "fixedIntensity": true
+                },
+                {
+                  "id": "COLORWAVE",
+                  "syncable": false,
+                  "fixedIntensity": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true,
+                  "fixedIntensity": true
+                }
+              ]
+            }
+          ]
+        },
+        "reportHidControls": {
+          "pages": [
+            {
+              "page": 7,
+              "usages": [
+                {
+                  "usage": 58,
+                  "button": 1
+                },
+                {
+                  "usage": 59,
+                  "button": 2
+                },
+                {
+                  "usage": 60,
+                  "button": 3
+                },
+                {
+                  "usage": 61,
+                  "button": 4
+                },
+                {
+                  "usage": 62,
+                  "button": 5
+                },
+                {
+                  "usage": 63,
+                  "button": 6
+                },
+                {
+                  "usage": 64,
+                  "button": 7
+                },
+                {
+                  "usage": 65,
+                  "button": 8
+                },
+                {
+                  "usage": 66,
+                  "button": 9
+                },
+                {
+                  "usage": 67,
+                  "button": 10
+                },
+                {
+                  "usage": 68,
+                  "button": 11
+                },
+                {
+                  "usage": 69,
+                  "button": 12
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "modelId": "g29",
+      "displayName": "G29",
+      "extendedDisplayName": "G29 Driving Force Racing Wheel",
+      "slotPrefix": "g29",
+      "type": "steering_wheel",
+      "depot": "g29",
+      "thumbnail": "pipeline://core/thumbnails/g29.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "hidio",
+                "id": "HID_046d_c260_00010004"
+              }
+            ]
+          },
+          {
+            "interfaces": [
+              {
+                "bus": "hidio",
+                "id": "HID_046d_c294_00010005"
+              }
+            ]
+          },
+          {
+            "interfaces": [
+              {
+                "bus": "hidio_filter",
+                "id": "MASKABLE_046d_c24f_00010004"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "gamingAttachments": {
+          "attachments": [
+            {
+              "id": "daylight_starlight_shifter",
+              "slotIds": [
+                "g29_g13_m1",
+                "g29_g14_m1",
+                "g29_g15_m1",
+                "g29_g16_m1",
+                "g29_g17_m1",
+                "g29_g18_m1",
+                "g29_g19_m1",
+                "g29_g13_m1_shifted",
+                "g29_g14_m1_shifted",
+                "g29_g15_m1_shifted",
+                "g29_g16_m1_shifted",
+                "g29_g17_m1_shifted",
+                "g29_g18_m1_shifted",
+                "g29_g19_m1_shifted"
+              ]
+            },
+            {
+              "id": "DAYLIGHT_STARLIGHT_PEDALS",
+              "slotIds": [
+                "g29_pedal_settings"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "modelId": "g302",
+      "displayName": "G302",
+      "extendedDisplayName": "G302 Daedalus Prime",
+      "slotPrefix": "g302",
+      "type": "mouse",
+      "depot": "g302",
+      "thumbnail": "pipeline://core/thumbnails/g303.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c07f"
+              }
+            ]
+          },
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_aab5"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "lightingSupport": {
+          "deviceCategory": "MOUSE_MONO_ZONAL",
+          "typeMap": {
+            "ZONE_PRIMARY": "COSMETIC",
+            "ZONE_BRANDING": "LOGO"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_PRIMARY",
+              "supportedEffects": [
+                {
+                  "id": "OFF"
+                },
+                {
+                  "id": "FIXED"
+                },
+                {
+                  "id": "BREATHING",
+                  "fixedIntensity": true
+                }
+              ]
+            },
+            {
+              "zoneType": "ZONE_BRANDING",
+              "supportedEffects": [
+                {
+                  "id": "OFF"
+                },
+                {
+                  "id": "FIXED"
+                },
+                {
+                  "id": "BREATHING",
+                  "fixedIntensity": true
+                }
+              ]
+            }
+          ],
+          "isMonochrome": true,
+          "color": {
+            "hex": "#00a5ff"
+          },
+          "firmwareOnly": true
+        },
+        "dpiInfoOverride": {
+          "range": {
+            "min": 300,
+            "max": 4000,
+            "steps": 50
+          }
+        },
+        "dpiTableOverride": {
+          "levels": [
+            400,
+            800,
+            1600,
+            3200
+          ],
+          "defaultDpi": 1600,
+          "shiftDpi": 400,
+          "activeDpi": 1600
+        }
+      }
+    },
+    {
+      "modelId": "g303",
+      "displayName": "G303",
+      "extendedDisplayName": "G303 Daedalus Apex",
+      "slotPrefix": "g303",
+      "type": "mouse",
+      "depot": "g303",
+      "thumbnail": "pipeline://core/thumbnails/g303.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c080"
+              }
+            ]
+          },
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_aab6"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "lightingSupport": {
+          "deviceCategory": "MOUSE_RGB_ZONAL",
+          "typeMap": {
+            "ZONE_PRIMARY": "PRIMARY",
+            "ZONE_BRANDING": "LOGO"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_PRIMARY",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            },
+            {
+              "zoneType": "ZONE_BRANDING",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            }
+          ]
+        },
+        "angleSnapping": true
+      }
+    },
+    {
+      "modelId": "g305",
+      "displayName": "G305",
+      "extendedDisplayName": "G305 Lightspeed Wireless Gaming Mouse",
+      "slotPrefix": "g305",
+      "type": "mouse",
+      "depot": "g305",
+      "thumbnail": "pipeline://core/thumbnails/g305.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "wireless": true,
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_4074",
+                "derivatives": [
+                  {
+                    "id": "046d_4074",
+                    "extendedModel": 1,
+                    "modelId": "g305_ext1",
+                    "displayName": "G304",
+                    "thumbnail": "pipeline://core/thumbnails/g305.png",
+                    "extendedDisplayName": "G304 Lightspeed Wireless Gaming Mouse"
+                  },
+                  {
+                    "id": "046d_4074",
+                    "extendedModel": 2,
+                    "modelId": "g305_ext2",
+                    "displayName": "G305",
+                    "thumbnail": "pipeline://core/thumbnails/g305_2.png",
+                    "extendedDisplayName": "G305 Lightspeed Wireless Gaming Mouse"
+                  },
+                  {
+                    "id": "046d_4074",
+                    "extendedModel": 3,
+                    "modelId": "g305_ext3",
+                    "displayName": "G304",
+                    "thumbnail": "pipeline://core/thumbnails/g305_2.png",
+                    "extendedDisplayName": "G304 Lightspeed Wireless Gaming Mouse"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "dpiIndicatorLed": {
+          "zoneType": "PRIMARY",
+          "steps": {
+            "1": {
+              "hex": "#f8e71c"
+            },
+            "2": {
+              "hex": "#ffffff"
+            },
+            "3": {
+              "hex": "#fd7600"
+            },
+            "4": {
+              "hex": "#e9168c"
+            },
+            "5": {
+              "hex": "#00a9e0"
+            }
+          }
+        },
+        "angleSnapping": true
+      }
+    },
+    {
+      "modelId": "g310",
+      "displayName": "G310",
+      "extendedDisplayName": "G310 Atlas Dawn",
+      "slotPrefix": "g310",
+      "type": "keyboard",
+      "depotPrefix": "g310",
+      "thumbnail": "pipeline://core/thumbnails/g310.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c32d"
+              }
+            ]
+          },
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_aab3"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "lightingSupport": {
+          "deviceCategory": "KEYBOARD_MONO_ZONAL",
+          "typeMap": {
+            "ZONE_PRIMARY": "COSMETIC"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_PRIMARY",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": false
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": false
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": false
+                }
+              ]
+            }
+          ],
+          "isMonochrome": true,
+          "color": {
+            "hex": "#00a5ff"
+          }
+        }
+      }
+    },
+    {
+      "modelId": "g402",
+      "displayName": "G402",
+      "extendedDisplayName": "G402 Hyperion Fury",
+      "slotPrefix": "g402",
+      "type": "mouse",
+      "depot": "g402",
+      "thumbnail": "pipeline://core/thumbnails/g402.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c07e"
+              }
+            ]
+          },
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_aab4"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "lightingSupport": {
+          "deviceCategory": "MOUSE_MONO_ZONAL",
+          "typeMap": {
+            "ZONE_BRANDING": "LOGO"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_BRANDING",
+              "supportedEffects": [
+                {
+                  "id": "OFF"
+                },
+                {
+                  "id": "FIXED"
+                },
+                {
+                  "id": "BREATHING",
+                  "fixedIntensity": true
+                }
+              ]
+            }
+          ],
+          "isMonochrome": true,
+          "color": {
+            "hex": "#00a5ff"
+          },
+          "firmwareOnly": true
+        },
+        "dpiInfoOverride": {
+          "range": {
+            "min": 300,
+            "max": 4000,
+            "steps": 50
+          }
+        },
+        "dpiTableOverride": {
+          "levels": [
+            400,
+            800,
+            1600,
+            3200
+          ],
+          "defaultDpi": 1600,
+          "shiftDpi": 400,
+          "activeDpi": 1600
+        },
+        "hybridEngine": true
+      }
+    },
+    {
+      "modelId": "g403_hero",
+      "displayName": "G403 HERO",
+      "extendedDisplayName": "G403 HERO Gaming Mouse",
+      "slotPrefix": "g403hero",
+      "type": "mouse",
+      "depot": "g403_hero",
+      "thumbnail": "pipeline://core/thumbnails/g403_wired.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c08f"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "lightingSupport": {
+          "deviceCategory": "MOUSE_RGB_ZONAL",
+          "typeMap": {
+            "ZONE_PRIMARY": "PRIMARY",
+            "ZONE_BRANDING": "LOGO"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_PRIMARY",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            },
+            {
+              "zoneType": "ZONE_BRANDING",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "modelId": "g403_wired",
+      "displayName": "G403",
+      "extendedDisplayName": "G403 Prodigy Gaming Mouse",
+      "slotPrefix": "g403-1",
+      "type": "mouse",
+      "depot": "g403",
+      "thumbnail": "pipeline://core/thumbnails/g403_wired.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c083"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "lightingSupport": {
+          "deviceCategory": "MOUSE_RGB_ZONAL",
+          "typeMap": {
+            "ZONE_PRIMARY": "PRIMARY",
+            "ZONE_BRANDING": "LOGO"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_PRIMARY",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            },
+            {
+              "zoneType": "ZONE_BRANDING",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            }
+          ]
+        },
+        "angleSnapping": true
+      }
+    },
+    {
+      "modelId": "g403_wireless",
+      "displayName": "G403",
+      "extendedDisplayName": "G403 Prodigy Gaming Mouse Wireless",
+      "slotPrefix": "g403",
+      "type": "mouse",
+      "depot": "g403",
+      "thumbnail": "pipeline://core/thumbnails/g403_wireless.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "wireless": true,
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_405d"
+              }
+            ]
+          },
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c082"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "lightingSupport": {
+          "deviceCategory": "MOUSE_RGB_ZONAL",
+          "typeMap": {
+            "ZONE_PRIMARY": "PRIMARY",
+            "ZONE_BRANDING": "LOGO"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_PRIMARY",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            },
+            {
+              "zoneType": "ZONE_BRANDING",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            }
+          ]
+        },
+        "dualMode": true,
+        "angleSnapping": true
+      }
+    },
+    {
+      "modelId": "g410",
+      "displayName": "G410",
+      "extendedDisplayName": "G410 Atlas Spectrum",
+      "slotPrefix": "g410",
+      "type": "keyboard",
+      "depotPrefix": "g410",
+      "thumbnail": "pipeline://core/thumbnails/g410.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c330"
+              }
+            ]
+          },
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_aabc"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "lightingSupport": {
+          "deviceCategory": "KEYBOARD_RGB_PER_KEY",
+          "typeMap": {
+            "PERKEY_KEYBOARD": "HID_KEYBOARD",
+            "ZONE_PRIMARY": "PRIMARY",
+            "PERKEY_INDICATOR": "KEYBOARD_OTHER"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_PRIMARY",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true,
+                  "fixedIntensity": true
+                },
+                {
+                  "id": "COLORWAVE",
+                  "syncable": false,
+                  "fixedIntensity": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true,
+                  "fixedIntensity": true
+                }
+              ]
+            }
+          ],
+          "isPerKey": true
+        }
+      }
+    },
+    {
+      "modelId": "g413",
+      "displayName": "G413",
+      "extendedDisplayName": "G413 Carbon",
+      "slotPrefix": "g413",
+      "type": "keyboard",
+      "depotPrefix": "g413",
+      "thumbnail": "pipeline://core/thumbnails/g413.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c33a",
+                "derivatives": [
+                  {
+                    "id": "046d_c33a",
+                    "extendedModel": 1,
+                    "modelId": "g413_ext1",
+                    "thumbnail": "pipeline://core/thumbnails/g413_ext1.png",
+                    "extendedDisplayName": "G413 Silver",
+                    "capabilities": {
+                      "lightingSupport": {
+                        "deviceCategory": "KEYBOARD_MONO_ZONAL",
+                        "typeMap": {
+                          "ZONE_PRIMARY": "PRIMARY"
+                        },
+                        "zones": [
+                          {
+                            "zoneType": "ZONE_PRIMARY",
+                            "supportedEffects": [
+                              {
+                                "id": "OFF",
+                                "syncable": true
+                              },
+                              {
+                                "id": "FIXED",
+                                "syncable": true
+                              },
+                              {
+                                "id": "BREATHING",
+                                "syncable": true,
+                                "fixedIntensity": true
+                              }
+                            ]
+                          }
+                        ],
+                        "isMonochrome": true,
+                        "isPerKey": false,
+                        "color": {
+                          "hex": "#ffffff"
+                        },
+                        "hideStartupEffect": true
+                      },
+                      "fnInversion": true,
+                      "reportHidControls": {
+                        "pages": [
+                          {
+                            "page": 7,
+                            "usages": [
+                              {
+                                "usage": 58,
+                                "button": 1
+                              },
+                              {
+                                "usage": 59,
+                                "button": 2
+                              },
+                              {
+                                "usage": 60,
+                                "button": 3
+                              },
+                              {
+                                "usage": 61,
+                                "button": 4
+                              },
+                              {
+                                "usage": 62,
+                                "button": 5
+                              },
+                              {
+                                "usage": 63,
+                                "button": 6
+                              },
+                              {
+                                "usage": 64,
+                                "button": 7
+                              },
+                              {
+                                "usage": 65,
+                                "button": 8
+                              },
+                              {
+                                "usage": 66,
+                                "button": 9
+                              },
+                              {
+                                "usage": 67,
+                                "button": 10
+                              },
+                              {
+                                "usage": 68,
+                                "button": 11
+                              },
+                              {
+                                "usage": 69,
+                                "button": 12
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "lightingSupport": {
+          "deviceCategory": "KEYBOARD_MONO_ZONAL",
+          "typeMap": {
+            "ZONE_PRIMARY": "PRIMARY"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_PRIMARY",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true,
+                  "fixedIntensity": true
+                }
+              ]
+            }
+          ],
+          "isMonochrome": true,
+          "isPerKey": false,
+          "color": {
+            "hex": "#ff0000"
+          },
+          "hideStartupEffect": true
+        },
+        "fnInversion": true,
+        "reportHidControls": {
+          "pages": [
+            {
+              "page": 7,
+              "usages": [
+                {
+                  "usage": 58,
+                  "button": 1
+                },
+                {
+                  "usage": 59,
+                  "button": 2
+                },
+                {
+                  "usage": 60,
+                  "button": 3
+                },
+                {
+                  "usage": 61,
+                  "button": 4
+                },
+                {
+                  "usage": 62,
+                  "button": 5
+                },
+                {
+                  "usage": 63,
+                  "button": 6
+                },
+                {
+                  "usage": 64,
+                  "button": 7
+                },
+                {
+                  "usage": 65,
+                  "button": 8
+                },
+                {
+                  "usage": 66,
+                  "button": 9
+                },
+                {
+                  "usage": 67,
+                  "button": 10
+                },
+                {
+                  "usage": 68,
+                  "button": 11
+                },
+                {
+                  "usage": 69,
+                  "button": 12
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "modelId": "g431",
+      "displayName": "G431",
+      "extendedDisplayName": "G431 Gaming Headset",
+      "slotPrefix": "g431",
+      "type": "headset",
+      "depot": "g431",
+      "thumbnail": "pipeline://core/thumbnails/g431.png",
+      "driver": {
+        "windowsIds": [
+          "audio"
+        ]
+      },
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_0a9b",
+                "extendedModel": 255
+              },
+              {
+                "bus": "hidio",
+                "id": "HID_046d_0a9b_000b0005",
+                "adaptor": "telephony"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "audio": {
+          "denoiserSupported": true,
+          "dtsHx2eSupported": true
+        }
+      }
+    },
+    {
+      "modelId": "g432",
+      "displayName": "G432",
+      "extendedDisplayName": "G432 Gaming Headset",
+      "slotPrefix": "g432",
+      "type": "headset",
+      "depot": "g432",
+      "thumbnail": "pipeline://core/thumbnails/g432.png",
+      "driver": {
+        "windowsIds": [
+          "audio"
+        ]
+      },
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_0a9c",
+                "extendedModel": 255
+              },
+              {
+                "bus": "hidio",
+                "id": "HID_046d_0a9c_000b0005",
+                "adaptor": "telephony"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "audio": {
+          "denoiserSupported": true,
+          "dtsHx2eSupported": true
+        }
+      }
+    },
+    {
+      "modelId": "g433",
+      "displayName": "G433",
+      "extendedDisplayName": "G433 Gaming Headset",
+      "slotPrefix": "g433",
+      "type": "headset",
+      "depot": "g433",
+      "thumbnail": "pipeline://core/thumbnails/g433.png",
+      "driver": {
+        "windowsIds": [
+          "audio"
+        ]
+      },
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_0a6d",
+                "extendedModel": 255
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "audio": {
+          "dtsSupported": true,
+          "denoiserSupported": true
+        },
+        "presentSplashScreen": true,
+        "customizableColor": true,
+        "platformDisabled": {
+          "osx": true
+        }
+      }
+    },
+    {
+      "modelId": "g502_core",
+      "displayName": "G502",
+      "extendedDisplayName": "G502 Proteus Core",
+      "slotPrefix": "g502core",
+      "type": "mouse",
+      "depot": "g502",
+      "thumbnail": "pipeline://core/thumbnails/g502_core.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c07d"
+              }
+            ]
+          },
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_aab3"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "lightingSupport": {
+          "deviceCategory": "MOUSE_MONO_ZONAL",
+          "typeMap": {
+            "ZONE_BRANDING": "LOGO"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_BRANDING",
+              "supportedEffects": [
+                {
+                  "id": "OFF"
+                },
+                {
+                  "id": "FIXED"
+                },
+                {
+                  "id": "BREATHING",
+                  "fixedIntensity": true
+                }
+              ]
+            }
+          ],
+          "isMonochrome": true,
+          "color": {
+            "hex": "#00a5ff"
+          },
+          "firmwareOnly": true
+        },
+        "angleSnapping": true
+      }
+    },
+    {
+      "modelId": "g502_hero",
+      "displayName": "G502 HERO",
+      "extendedDisplayName": "G502 Hero Gaming Mouse",
+      "slotPrefix": "g502hero",
+      "type": "mouse",
+      "depot": "g502",
+      "thumbnail": "pipeline://core/thumbnails/g502_hero.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c08b",
+                "derivatives": [
+                  {
+                    "id": "046d_c08b",
+                    "extendedModel": 1,
+                    "modelId": "g502_riot",
+                    "displayName": "G502 HERO LoL",
+                    "thumbnail": "pipeline://core/thumbnails/g502_riot.png"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_aae6"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "lightingSupport": {
+          "deviceCategory": "MOUSE_RGB_ZONAL",
+          "typeMap": {
+            "ZONE_PRIMARY": "PRIMARY",
+            "ZONE_BRANDING": "LOGO"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_PRIMARY",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            },
+            {
+              "zoneType": "ZONE_BRANDING",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "modelId": "g502_spectrum",
+      "displayName": "G502",
+      "extendedDisplayName": "G502 Proteus Spectrum",
+      "slotPrefix": "g502spectrum",
+      "type": "mouse",
+      "depot": "g502",
+      "thumbnail": "pipeline://core/thumbnails/g502_spectrum.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c332"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "lightingSupport": {
+          "deviceCategory": "MOUSE_RGB_ZONAL",
+          "typeMap": {
+            "ZONE_PRIMARY": "PRIMARY",
+            "ZONE_BRANDING": "LOGO"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_PRIMARY",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            },
+            {
+              "zoneType": "ZONE_BRANDING",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            }
+          ]
+        },
+        "angleSnapping": true
+      }
+    },
+    {
+      "modelId": "g502_wireless",
+      "displayName": "G502 LIGHTSPEED",
+      "extendedDisplayName": "G502 LIGHTSPEED Wireless Gaming Mouse",
+      "slotPrefix": "g502wireless",
+      "type": "mouse",
+      "depot": "g502_wireless",
+      "thumbnail": "pipeline://core/thumbnails/g502_wireless.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c08d"
+              }
+            ]
+          },
+          {
+            "wireless": true,
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_407f"
+              }
+            ]
+          },
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_aaef"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "lightingSupport": {
+          "deviceCategory": "MOUSE_RGB_ZONAL",
+          "typeMap": {
+            "ZONE_PRIMARY": "PRIMARY",
+            "ZONE_BRANDING": "LOGO"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_PRIMARY",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            },
+            {
+              "zoneType": "ZONE_BRANDING",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            }
+          ],
+          "lowBatteryEffect": true
+        },
+        "dpiInfoOverride": {
+          "range": {
+            "min": 100,
+            "max": 16000,
+            "steps": 50
+          }
+        },
+        "dualMode": true,
+        "angleSnapping": true
+      }
+    },
+    {
+      "modelId": "g513",
+      "displayName": "G513",
+      "extendedDisplayName": "G513 Carbon Tactile",
+      "slotPrefix": "g513",
+      "type": "keyboard",
+      "depotPrefix": "g513",
+      "thumbnail": "pipeline://core/thumbnails/g513.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c33c",
+                "derivatives": [
+                  {
+                    "id": "046d_c33c",
+                    "extendedModel": 1,
+                    "modelId": "g513_ext1",
+                    "thumbnail": "pipeline://core/thumbnails/g513.png",
+                    "extendedDisplayName": "G513 Carbon Linear"
+                  },
+                  {
+                    "id": "046d_c33c",
+                    "extendedModel": 2,
+                    "modelId": "g513_ext2",
+                    "thumbnail": "pipeline://core/thumbnails/g513_ext2.png",
+                    "extendedDisplayName": "G513 Silver Tactile"
+                  },
+                  {
+                    "id": "046d_c33c",
+                    "extendedModel": 3,
+                    "modelId": "g512_ext3",
+                    "displayName": "G512",
+                    "thumbnail": "pipeline://core/thumbnails/g513_ext3.png",
+                    "extendedDisplayName": "G512 Carbon Tactile"
+                  },
+                  {
+                    "id": "046d_c33c",
+                    "extendedModel": 4,
+                    "modelId": "g512_ext4",
+                    "displayName": "G512",
+                    "thumbnail": "pipeline://core/thumbnails/g513_ext3.png",
+                    "extendedDisplayName": "G512 Carbon Linear"
+                  },
+                  {
+                    "id": "046d_c33c",
+                    "extendedModel": 5,
+                    "modelId": "g513_ext5",
+                    "thumbnail": "pipeline://core/thumbnails/g513_ext3.png",
+                    "extendedDisplayName": "G513 Carbon GX Blue"
+                  },
+                  {
+                    "id": "046d_c33c",
+                    "extendedModel": 6,
+                    "modelId": "g512_ext6",
+                    "displayName": "G512",
+                    "thumbnail": "pipeline://core/thumbnails/g513_ext3.png",
+                    "extendedDisplayName": "G512 Carbon GX Blue"
+                  },
+                  {
+                    "id": "046d_c33c",
+                    "extendedModel": 7,
+                    "modelId": "g513_ext7",
+                    "thumbnail": "pipeline://core/thumbnails/g513_ext3.png",
+                    "extendedDisplayName": "G513 Carbon GX Brown"
+                  },
+                  {
+                    "id": "046d_c33c",
+                    "extendedModel": 8,
+                    "modelId": "g512_ext8",
+                    "displayName": "G512",
+                    "thumbnail": "pipeline://core/thumbnails/g513_ext3.png",
+                    "extendedDisplayName": "G512 Carbon GX Brown"
+                  },
+                  {
+                    "id": "046d_c33c",
+                    "extendedModel": 9,
+                    "modelId": "g513_ext9",
+                    "thumbnail": "pipeline://core/thumbnails/g513_ext3.png",
+                    "extendedDisplayName": "G513 Carbon GX Red"
+                  },
+                  {
+                    "id": "046d_c33c",
+                    "extendedModel": 10,
+                    "modelId": "g512_ext10",
+                    "displayName": "G512",
+                    "thumbnail": "pipeline://core/thumbnails/g513_ext3.png",
+                    "extendedDisplayName": "G512 Carbon GX Red"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_aadc"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "lightingSupport": {
+          "deviceCategory": "KEYBOARD_RGB_PER_KEY",
+          "typeMap": {
+            "PERKEY_KEYBOARD": "HID_KEYBOARD",
+            "PERKEY_INDICATOR": "KEYBOARD_OTHER",
+            "ZONE_PRIMARY": "PRIMARY"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_PRIMARY",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true,
+                  "fixedIntensity": true
+                },
+                {
+                  "id": "COLORWAVE",
+                  "syncable": false,
+                  "fixedIntensity": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true,
+                  "fixedIntensity": true
+                },
+                {
+                  "id": "RIPPLE",
+                  "syncable": false
+                }
+              ]
+            }
+          ],
+          "isPerKey": true,
+          "persistence": {
+            "perKeyFixed": true
+          }
+        },
+        "fnInversion": true,
+        "reportHidControls": {
+          "pages": [
+            {
+              "page": 7,
+              "usages": [
+                {
+                  "usage": 58,
+                  "button": 1
+                },
+                {
+                  "usage": 59,
+                  "button": 2
+                },
+                {
+                  "usage": 60,
+                  "button": 3
+                },
+                {
+                  "usage": 61,
+                  "button": 4
+                },
+                {
+                  "usage": 62,
+                  "button": 5
+                },
+                {
+                  "usage": 63,
+                  "button": 6
+                },
+                {
+                  "usage": 64,
+                  "button": 7
+                },
+                {
+                  "usage": 65,
+                  "button": 8
+                },
+                {
+                  "usage": 66,
+                  "button": 9
+                },
+                {
+                  "usage": 67,
+                  "button": 10
+                },
+                {
+                  "usage": 68,
+                  "button": 11
+                },
+                {
+                  "usage": 69,
+                  "button": 12
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "modelId": "g512_se",
+      "displayName": "G512",
+      "extendedDisplayName": "G512",
+      "slotPrefix": "g512se",
+      "type": "keyboard",
+      "depotPrefix": "g512_se",
+      "thumbnail": "pipeline://core/thumbnails/g513_ext3.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c342"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "lightingSupport": {
+          "deviceCategory": "KEYBOARD_RGB_PER_KEY",
+          "typeMap": {
+            "PERKEY_KEYBOARD": "HID_KEYBOARD",
+            "ZONE_PRIMARY": "PRIMARY"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_PRIMARY",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true,
+                  "fixedIntensity": true
+                },
+                {
+                  "id": "COLORWAVE",
+                  "syncable": false,
+                  "fixedIntensity": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true,
+                  "fixedIntensity": true
+                },
+                {
+                  "id": "RIPPLE",
+                  "syncable": false
+                }
+              ]
+            }
+          ],
+          "isPerKey": true,
+          "persistence": {
+            "perKeyFixed": true
+          }
+        },
+        "fnInversion": true,
+        "reportHidControls": {
+          "pages": [
+            {
+              "page": 7,
+              "usages": [
+                {
+                  "usage": 58,
+                  "button": 1
+                },
+                {
+                  "usage": 59,
+                  "button": 2
+                },
+                {
+                  "usage": 60,
+                  "button": 3
+                },
+                {
+                  "usage": 61,
+                  "button": 4
+                },
+                {
+                  "usage": 62,
+                  "button": 5
+                },
+                {
+                  "usage": 63,
+                  "button": 6
+                },
+                {
+                  "usage": 64,
+                  "button": 7
+                },
+                {
+                  "usage": 65,
+                  "button": 8
+                },
+                {
+                  "usage": 66,
+                  "button": 9
+                },
+                {
+                  "usage": 67,
+                  "button": 10
+                },
+                {
+                  "usage": 68,
+                  "button": 11
+                },
+                {
+                  "usage": 69,
+                  "button": 12
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "modelId": "g533",
+      "displayName": "G533",
+      "extendedDisplayName": "G533 Gaming Headset",
+      "slotPrefix": "g533",
+      "type": "headset",
+      "depot": "g533",
+      "thumbnail": "pipeline://core/thumbnails/g533.png",
+      "driver": {
+        "windowsIds": [
+          "audio"
+        ]
+      },
+      "virtualDevice": {
+        "modes": [
+          {
+            "wireless": true,
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_0a66"
+              },
+              {
+                "bus": "hidio",
+                "id": "HID_046d_0a66_000b0001",
+                "adaptor": "telephony"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "audio": {
+          "dtsSupported": true,
+          "denoiserSupported": true
+        },
+        "sleepTimer": true
+      }
+    },
+    {
+      "modelId": "g560",
+      "displayName": "G560",
+      "extendedDisplayName": "G560 Gaming Speaker",
+      "slotPrefix": "g560",
+      "type": "speaker",
+      "depot": "g560",
+      "thumbnail": "pipeline://core/thumbnails/g560.png",
+      "driver": {
+        "windowsIds": [
+          "audio"
+        ]
+      },
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_0a78"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "audio": {
+          "dtsSupported": true
+        },
+        "lightingSupport": {
+          "deviceCategory": "SPEAKER_RGB_ZONAL",
+          "typeMap": {
+            "ZONE_ONE": "PRIMARY",
+            "ZONE_TWO": "LEFT_SIDE",
+            "ZONE_THREE": "LOGO",
+            "ZONE_FOUR": "RIGHT_SIDE"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_ONE",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            },
+            {
+              "zoneType": "ZONE_TWO",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            },
+            {
+              "zoneType": "ZONE_THREE",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            },
+            {
+              "zoneType": "ZONE_FOUR",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            }
+          ],
+          "brightnessLevels": [
+            100,
+            50,
+            25,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "modelId": "g600",
+      "displayName": "G600",
+      "extendedDisplayName": "G600 MMO Gaming Mouse",
+      "slotPrefix": "g600",
+      "type": "mouse",
+      "depot": "g600",
+      "thumbnail": "pipeline://core/thumbnails/g600.png",
+      "driver": {
+        "windowsIds": [
+          "com.logi.gaming.hidio"
+        ],
+        "osxIds": [
+          "com.logi.gaming.hidio"
+        ]
+      },
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "hidio",
+                "id": "HID_046d_c24a_ff800080",
+                "derivatives": [
+                  {
+                    "id": "HID_046d_c24a_ff800080",
+                    "extendedModel": 1,
+                    "modelId": "g600_ext1",
+                    "thumbnail": "pipeline://core/thumbnails/g600_ext1.png",
+                    "extendedDisplayName": "G600 MMO Gaming Mouse White"
+                  }
+                ]
+              },
+              {
+                "bus": "hidio_filter",
+                "id": "MASKABLE_046d_c24a_00010002"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "onboardProfiles": {
+          "disableProfileNaming": true,
+          "profilesAlwaysActive": true
+        },
+        "lightingSupport": {
+          "deviceCategory": "MOUSE_RGB_ZONAL",
+          "typeMap": {
+            "ZONE_PRIMARY": "PRIMARY"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_PRIMARY",
+              "supportedEffects": [
+                {
+                  "id": "OFF"
+                },
+                {
+                  "id": "FIXED"
+                },
+                {
+                  "id": "CYCLE",
+                  "fixedIntensity": true
+                },
+                {
+                  "id": "BREATHING"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "modelId": "g602",
+      "displayName": "G602",
+      "extendedDisplayName": "G602 Wireless Gaming Mouse",
+      "slotPrefix": "g602",
+      "type": "mouse",
+      "depot": "g602",
+      "thumbnail": "pipeline://core/thumbnails/g602.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "wireless": true,
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c537"
+              },
+              {
+                "bus": "hidio",
+                "id": "HID_046d_c537_ff800080",
+                "adaptor": "vendor"
+              },
+              {
+                "bus": "hidio",
+                "id": "HID_MOUSE_046d_c537"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "onboardProfiles": {
+          "disableProfileNaming": true,
+          "profilesAlwaysActive": true
+        },
+        "platformDisabled": {
+          "osx": true
+        }
+      }
+    },
+    {
+      "modelId": "g603",
+      "displayName": "G603",
+      "extendedDisplayName": "G603 Lightspeed Wireless Gaming Mouse",
+      "slotPrefix": "g603",
+      "type": "mouse",
+      "depot": "g603",
+      "thumbnail": "pipeline://core/thumbnails/g603.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "wireless": true,
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_406c"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "dpiIndicatorLed": {
+          "zoneType": "LOGO",
+          "steps": {
+            "1": {
+              "hex": "#f8e71c"
+            },
+            "2": {
+              "hex": "#ffffff"
+            },
+            "3": {
+              "hex": "#fd7600"
+            },
+            "4": {
+              "hex": "#e9168c"
+            },
+            "5": {
+              "hex": "#00a9e0"
+            }
+          }
+        },
+        "angleSnapping": true
+      }
+    },
+    {
+      "modelId": "g604",
+      "displayName": "G604 LIGHTSPEED",
+      "extendedDisplayName": "G604 Lightspeed Wireless Gaming Mouse",
+      "slotPrefix": "g604",
+      "type": "mouse",
+      "depot": "g604",
+      "thumbnail": "pipeline://core/thumbnails/g604.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "wireless": true,
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_4085"
+              },
+              {
+                "bus": "devio",
+                "id": "046d_b024"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "dpiIndicatorLed": {
+          "zoneType": "PRIMARY",
+          "steps": {
+            "1": {
+              "hex": "#ffff00"
+            },
+            "2": {
+              "hex": "#ffffff"
+            },
+            "3": {
+              "hex": "#ff9900"
+            },
+            "4": {
+              "hex": "#ff0293"
+            },
+            "5": {
+              "hex": "#8d40ff"
+            }
+          }
+        },
+        "dpiInfoOverride": {
+          "range": {
+            "min": 100,
+            "max": 16000,
+            "steps": 50
+          }
+        },
+        "hostRemovalSupport": true,
+        "presentSplashScreen": true,
+        "scrollControls": {
+          "scrollUp": 15,
+          "scrollDown": 14
+        },
+        "mouseButtonControls": {
+          "buttonCount": 13
+        }
+      }
+    },
+    {
+      "modelId": "g610",
+      "displayName": "G610",
+      "extendedDisplayName": "G610 Orion",
+      "slotPrefix": "g610",
+      "type": "keyboard",
+      "depotPrefix": "g610",
+      "thumbnail": "pipeline://core/thumbnails/g610.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c338"
+              }
+            ]
+          },
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c333"
+              }
+            ]
+          },
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_aacd"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "lightingSupport": {
+          "deviceCategory": "KEYBOARD_MONO_PER_KEY",
+          "typeMap": {
+            "PERKEY_KEYBOARD": "HID_KEYBOARD",
+            "PERKEY_CONSUMER": "HID_CONSUMER",
+            "PERKEY_BRANDING": "LOGO",
+            "PERKEY_INDICATOR": "KEYBOARD_OTHER",
+            "ZONE_PRIMARY": "PRIMARY",
+            "ZONE_BRANDING": "LOGO"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_PRIMARY",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "COLORWAVE",
+                  "syncable": false,
+                  "fixedIntensity": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true,
+                  "fixedIntensity": true
+                }
+              ]
+            },
+            {
+              "zoneType": "ZONE_BRANDING",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true,
+                  "fixedIntensity": true
+                }
+              ]
+            }
+          ],
+          "isMonochrome": true,
+          "isPerKey": true,
+          "color": {
+            "hex": "#ffffff"
+          }
+        },
+        "reportHidControls": {
+          "pages": [
+            {
+              "page": 7,
+              "usages": [
+                {
+                  "usage": 58,
+                  "button": 1
+                },
+                {
+                  "usage": 59,
+                  "button": 2
+                },
+                {
+                  "usage": 60,
+                  "button": 3
+                },
+                {
+                  "usage": 61,
+                  "button": 4
+                },
+                {
+                  "usage": 62,
+                  "button": 5
+                },
+                {
+                  "usage": 63,
+                  "button": 6
+                },
+                {
+                  "usage": 64,
+                  "button": 7
+                },
+                {
+                  "usage": 65,
+                  "button": 8
+                },
+                {
+                  "usage": 66,
+                  "button": 9
+                },
+                {
+                  "usage": 67,
+                  "button": 10
+                },
+                {
+                  "usage": 68,
+                  "button": 11
+                },
+                {
+                  "usage": 69,
+                  "button": 12
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "modelId": "g613",
+      "displayName": "G613",
+      "extendedDisplayName": "G613 Wireless Gaming Keyboard",
+      "slotPrefix": "g613",
+      "type": "keyboard",
+      "depotPrefix": "g613",
+      "thumbnail": "pipeline://core/thumbnails/g613.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "wireless": true,
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_4065"
+              }
+            ]
+          },
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_aacd"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "wirelessReportRate": true
+      }
+    },
+    {
+      "modelId": "g633",
+      "displayName": "G633",
+      "extendedDisplayName": "G633 Artemis Spectrum",
+      "slotPrefix": "g633",
+      "type": "headset",
+      "depot": "g633",
+      "thumbnail": "pipeline://core/thumbnails/g633.png",
+      "driver": {
+        "windowsIds": [
+          "audio"
+        ]
+      },
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_0a5c",
+                "derivatives": [
+                  {
+                    "id": "046d_0a5c",
+                    "extendedModel": 1,
+                    "modelId": "g633_ext1",
+                    "thumbnail": "pipeline://core/thumbnails/g633_ext1.png",
+                    "extendedDisplayName": "G633 Artemis Spectrum Battlefield 1 Edition"
+                  }
+                ]
+              },
+              {
+                "bus": "hidio",
+                "id": "HID_046d_0a5c_000b0001",
+                "adaptor": "telephony"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "audio": {
+          "dtsSupported": true,
+          "dolbySupported": true,
+          "denoiserSupported": true,
+          "onboardEqSupported": true
+        },
+        "lightingSupport": {
+          "deviceCategory": "HEADSET_RGB_ZONAL",
+          "typeMap": {
+            "ZONE_PRIMARY": "PRIMARY",
+            "ZONE_BRANDING": "LOGO"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_PRIMARY",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            },
+            {
+              "zoneType": "ZONE_BRANDING",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            }
+          ],
+          "persistence": {
+            "zoneEffects": true
+          },
+          "gamma": true
+        },
+        "excludeGShift": true
+      }
+    },
+    {
+      "modelId": "g635",
+      "displayName": "G635",
+      "extendedDisplayName": "G635 Wired 7.1 LIGHTSYNC Gaming Headset",
+      "slotPrefix": "g635",
+      "type": "headset",
+      "depot": "g635",
+      "thumbnail": "pipeline://core/thumbnails/g635.png",
+      "driver": {
+        "windowsIds": [
+          "audio"
+        ]
+      },
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_0a89",
+                "derivatives": [
+                  {
+                    "id": "046d_0a89",
+                    "extendedModel": 1,
+                    "modelId": "g633s",
+                    "displayName": "G633s",
+                    "thumbnail": "pipeline://core/thumbnails/g633s.png",
+                    "extendedDisplayName": "G633s Wired 7.1 LIGHTSYNC Gaming Headset"
+                  }
+                ]
+              },
+              {
+                "bus": "hidio",
+                "id": "HID_046d_0a89_000b0001",
+                "adaptor": "telephony"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "audio": {
+          "denoiserSupported": true,
+          "dtsHx2eSupported": true
+        },
+        "lightingSupport": {
+          "deviceCategory": "HEADSET_RGB_ZONAL",
+          "typeMap": {
+            "ZONE_PRIMARY": "PRIMARY",
+            "ZONE_BRANDING": "LOGO"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_PRIMARY",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            },
+            {
+              "zoneType": "ZONE_BRANDING",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            }
+          ],
+          "persistence": {
+            "zoneEffects": true
+          },
+          "gamma": true
+        },
+        "excludeGShift": true
+      }
+    },
+    {
+      "modelId": "g703",
+      "displayName": "G703",
+      "extendedDisplayName": "G703 LIGHTSPEED Wireless Gaming Mouse",
+      "slotPrefix": "g703",
+      "type": "mouse",
+      "depot": "g703",
+      "thumbnail": "pipeline://core/thumbnails/g703.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c087",
+                "derivatives": [
+                  {
+                    "id": "046d_c087",
+                    "extendedModel": 1,
+                    "modelId": "g703_ext1",
+                    "thumbnail": "pipeline://core/thumbnails/g703_ext1.png"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "wireless": true,
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_4070",
+                "derivatives": [
+                  {
+                    "id": "046d_4070",
+                    "extendedModel": 1,
+                    "modelId": "g703_ext1",
+                    "thumbnail": "pipeline://core/thumbnails/g703_ext1.png"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "lightingSupport": {
+          "deviceCategory": "MOUSE_RGB_ZONAL",
+          "typeMap": {
+            "ZONE_PRIMARY": "PRIMARY",
+            "ZONE_BRANDING": "LOGO"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_PRIMARY",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            },
+            {
+              "zoneType": "ZONE_BRANDING",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            }
+          ]
+        },
+        "dualMode": true,
+        "angleSnapping": true
+      }
+    },
+    {
+      "modelId": "g703_hero",
+      "displayName": "G703 LIGHTSPEED",
+      "extendedDisplayName": "G703 LIGHTSPEED Wireless Gaming Mouse",
+      "slotPrefix": "g703hero",
+      "type": "mouse",
+      "depot": "g703_hero",
+      "thumbnail": "pipeline://core/thumbnails/g703.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c090"
+              }
+            ]
+          },
+          {
+            "wireless": true,
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_4086"
+              }
+            ]
+          },
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_aaf6",
+                "is_bootloader": true
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "lightingSupport": {
+          "deviceCategory": "MOUSE_RGB_ZONAL",
+          "typeMap": {
+            "ZONE_PRIMARY": "PRIMARY",
+            "ZONE_BRANDING": "LOGO"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_PRIMARY",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            },
+            {
+              "zoneType": "ZONE_BRANDING",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            }
+          ],
+          "powerSavingEffect": true,
+          "lowBatteryEffect": true
+        },
+        "dualMode": true,
+        "dpiInfoOverride": {
+          "range": {
+            "min": 100,
+            "max": 16000,
+            "steps": 50
+          }
+        }
+      }
+    },
+    {
+      "modelId": "g810",
+      "displayName": "G810",
+      "extendedDisplayName": "G810 Orion Spectrum",
+      "slotPrefix": "g810",
+      "type": "keyboard",
+      "depotPrefix": "g810",
+      "thumbnail": "pipeline://core/thumbnails/g810.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c331",
+                "derivatives": [
+                  {
+                    "bus": "devio",
+                    "id": "046d_c337"
+                  },
+                  {
+                    "modelId": "g810_ext1",
+                    "id": "046d_c337",
+                    "extendedModel": 1,
+                    "thumbnail": "pipeline://core/thumbnails/g810_ext1.png",
+                    "extendedDisplayName": "G810 Orion Spectrum - Battlefield Edition"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_aabd",
+                "is_bootloader": true,
+                "derivatives": [
+                  {
+                    "bus": "devio",
+                    "id": "046d_aacc",
+                    "is_bootloader": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "lightingSupport": {
+          "deviceCategory": "KEYBOARD_RGB_PER_KEY",
+          "typeMap": {
+            "PERKEY_KEYBOARD": "HID_KEYBOARD",
+            "PERKEY_CONSUMER": "HID_CONSUMER",
+            "PERKEY_BRANDING": "LOGO",
+            "PERKEY_INDICATOR": "KEYBOARD_OTHER",
+            "ZONE_PRIMARY": "PRIMARY",
+            "ZONE_BRANDING": "LOGO"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_PRIMARY",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true,
+                  "fixedIntensity": true
+                },
+                {
+                  "id": "COLORWAVE",
+                  "syncable": false,
+                  "fixedIntensity": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true,
+                  "fixedIntensity": true
+                }
+              ]
+            },
+            {
+              "zoneType": "ZONE_BRANDING",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true,
+                  "fixedIntensity": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true,
+                  "fixedIntensity": true
+                }
+              ]
+            }
+          ],
+          "isPerKey": true
+        },
+        "reportHidControls": {
+          "pages": [
+            {
+              "page": 7,
+              "usages": [
+                {
+                  "usage": 58,
+                  "button": 1
+                },
+                {
+                  "usage": 59,
+                  "button": 2
+                },
+                {
+                  "usage": 60,
+                  "button": 3
+                },
+                {
+                  "usage": 61,
+                  "button": 4
+                },
+                {
+                  "usage": 62,
+                  "button": 5
+                },
+                {
+                  "usage": 63,
+                  "button": 6
+                },
+                {
+                  "usage": 64,
+                  "button": 7
+                },
+                {
+                  "usage": 65,
+                  "button": 8
+                },
+                {
+                  "usage": 66,
+                  "button": 9
+                },
+                {
+                  "usage": 67,
+                  "button": 10
+                },
+                {
+                  "usage": 68,
+                  "button": 11
+                },
+                {
+                  "usage": 69,
+                  "button": 12
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "modelId": "g815",
+      "displayName": "G815",
+      "extendedDisplayName": "G815 RGB Mechanical Gaming Keyboard",
+      "slotPrefix": "g815",
+      "type": "keyboard",
+      "depotPrefix": "g815",
+      "thumbnail": "pipeline://core/thumbnails/g815.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c33f",
+                "derivatives": [
+                  {
+                    "id": "046d_c33f",
+                    "extendedModel": 1
+                  },
+                  {
+                    "id": "046d_c33f",
+                    "extendedModel": 2
+                  },
+                  {
+                    "id": "046d_c33f",
+                    "extendedModel": 3,
+                    "displayName": "G813",
+                    "extendedDisplayName": "G813 RGB Mechanical Gaming Keyboard"
+                  },
+                  {
+                    "id": "046d_c33f",
+                    "extendedModel": 4,
+                    "displayName": "G813",
+                    "extendedDisplayName": "G813 RGB Mechanical Gaming Keyboard"
+                  },
+                  {
+                    "id": "046d_c33f",
+                    "extendedModel": 5,
+                    "displayName": "G813",
+                    "extendedDisplayName": "G813 RGB Mechanical Gaming Keyboard"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "lightingSupport": {
+          "deviceCategory": "KEYBOARD_RGB_PER_KEY",
+          "typeMap": {
+            "PERKEY_KEYBOARD": "HID_KEYBOARD",
+            "PERKEY_INDICATOR": "KEYBOARD_OTHER",
+            "PERKEY_CONSUMER": "HID_CONSUMER",
+            "PERKEY_BRANDING": "LOGO",
+            "PERKEY_GKEY": "G_KEY",
+            "ZONE_PRIMARY": "PRIMARY",
+            "ZONE_BRANDING": "LOGO"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_PRIMARY",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "COLORWAVE",
+                  "syncable": false
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                },
+                {
+                  "id": "RIPPLE",
+                  "syncable": false
+                }
+              ]
+            },
+            {
+              "zoneType": "ZONE_BRANDING",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            }
+          ],
+          "hideStartupEffect": true,
+          "isPerKey": true,
+          "persistence": {
+            "perKeyCustom": 2
+          },
+          "brightnessPercentage": true
+        },
+        "mstateCount": "3"
+      }
+    },
+    {
+      "modelId": "g900",
+      "displayName": "G900",
+      "extendedDisplayName": "G900 Chaos Spectrum Wireless Gaming Mouse",
+      "slotPrefix": "g900",
+      "type": "mouse",
+      "depot": "g900",
+      "thumbnail": "pipeline://core/thumbnails/g900.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c081"
+              }
+            ]
+          },
+          {
+            "wireless": true,
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_4053"
+              }
+            ]
+          },
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_aaba"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "maskableZones": {
+          "zones": [
+            {
+              "id": "left_side",
+              "slotIds": [
+                "g900_g4_m1",
+                "g900_g4_m1_shifted",
+                "g900_g5_m1",
+                "g900_g5_m1_shifted"
+              ],
+              "displayIconKey": "mouse_2_buttons_left_icon",
+              "renderIconKey": "cover_image_left"
+            },
+            {
+              "id": "right_side",
+              "slotIds": [
+                "g900_g6_m1",
+                "g900_g6_m1_shifted",
+                "g900_g7_m1",
+                "g900_g7_m1_shifted"
+              ],
+              "displayIconKey": "mouse_2_buttons_right_icon",
+              "renderIconKey": "cover_image_right"
+            }
+          ]
+        },
+        "lightingSupport": {
+          "deviceCategory": "MOUSE_RGB_ZONAL",
+          "typeMap": {
+            "ZONE_PRIMARY": "PRIMARY",
+            "ZONE_BRANDING": "LOGO"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_PRIMARY",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            },
+            {
+              "zoneType": "ZONE_BRANDING",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            }
+          ],
+          "lowBatteryEffect": true
+        },
+        "dualMode": true,
+        "angleSnapping": true,
+        "onboardCycleId": {
+          "value": 11
+        }
+      }
+    },
+    {
+      "modelId": "g903",
+      "displayName": "G903",
+      "extendedDisplayName": "G903 LIGHTSPEED Wireless Gaming Mouse",
+      "slotPrefix": "g900",
+      "type": "mouse",
+      "depot": "g900",
+      "thumbnail": "pipeline://core/thumbnails/g900.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c086"
+              }
+            ]
+          },
+          {
+            "wireless": true,
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_4067"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "maskableZones": {
+          "zones": [
+            {
+              "id": "left_side",
+              "slotIds": [
+                "g900_g4_m1",
+                "g900_g4_m1_shifted",
+                "g900_g5_m1",
+                "g900_g5_m1_shifted"
+              ],
+              "displayIconKey": "mouse_2_buttons_left_icon",
+              "renderIconKey": "cover_image_left"
+            },
+            {
+              "id": "right_side",
+              "slotIds": [
+                "g900_g6_m1",
+                "g900_g6_m1_shifted",
+                "g900_g7_m1",
+                "g900_g7_m1_shifted"
+              ],
+              "displayIconKey": "mouse_2_buttons_right_icon",
+              "renderIconKey": "cover_image_right"
+            }
+          ]
+        },
+        "lightingSupport": {
+          "deviceCategory": "MOUSE_RGB_ZONAL",
+          "typeMap": {
+            "ZONE_PRIMARY": "PRIMARY",
+            "ZONE_BRANDING": "LOGO"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_PRIMARY",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            },
+            {
+              "zoneType": "ZONE_BRANDING",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            }
+          ],
+          "lowBatteryEffect": true
+        },
+        "dualMode": true,
+        "angleSnapping": true,
+        "onboardCycleId": {
+          "value": 11
+        }
+      }
+    },
+    {
+      "modelId": "g903_hero",
+      "displayName": "G903 LIGHTSPEED",
+      "extendedDisplayName": "G903 LIGHTSPEED Wireless Gaming Mouse",
+      "slotPrefix": "g903hero",
+      "type": "mouse",
+      "depot": "g903_hero",
+      "thumbnail": "pipeline://core/thumbnails/g900.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c091"
+              }
+            ]
+          },
+          {
+            "wireless": true,
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_4087"
+              }
+            ]
+          },
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_aaf7",
+                "is_bootloader": true
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "maskableZones": {
+          "zones": [
+            {
+              "id": "left_side",
+              "slotIds": [
+                "g903hero_g4_m1",
+                "g903hero_g4_m1_shifted",
+                "g903hero_g5_m1",
+                "g903hero_g5_m1_shifted"
+              ],
+              "displayIconKey": "mouse_2_buttons_left_icon",
+              "renderIconKey": "cover_image_left"
+            },
+            {
+              "id": "right_side",
+              "slotIds": [
+                "g903hero_g6_m1",
+                "g903hero_g6_m1_shifted",
+                "g903hero_g7_m1",
+                "g903hero_g7_m1_shifted"
+              ],
+              "displayIconKey": "mouse_2_buttons_right_icon",
+              "renderIconKey": "cover_image_right"
+            }
+          ]
+        },
+        "lightingSupport": {
+          "deviceCategory": "MOUSE_RGB_ZONAL",
+          "typeMap": {
+            "ZONE_PRIMARY": "PRIMARY",
+            "ZONE_BRANDING": "LOGO"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_PRIMARY",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            },
+            {
+              "zoneType": "ZONE_BRANDING",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            }
+          ],
+          "powerSavingEffect": true,
+          "lowBatteryEffect": true
+        },
+        "dualMode": true,
+        "dpiInfoOverride": {
+          "range": {
+            "min": 100,
+            "max": 16000,
+            "steps": 50
+          }
+        },
+        "onboardCycleId": {
+          "value": 11
+        }
+      }
+    },
+    {
+      "modelId": "g910v1",
+      "displayName": "G910",
+      "extendedDisplayName": "G910 Orion Spark",
+      "slotPrefix": "g910",
+      "type": "keyboard",
+      "depotPrefix": "g910",
+      "thumbnail": "pipeline://core/thumbnails/g910.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c32b"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "lightingSupport": {
+          "deviceCategory": "KEYBOARD_RGB_PER_KEY",
+          "typeMap": {
+            "PERKEY_KEYBOARD": "HID_KEYBOARD",
+            "PERKEY_BRANDING": "LOGO",
+            "PERKEY_GKEY": "G_KEY",
+            "ZONE_PRIMARY": "PRIMARY",
+            "ZONE_BRANDING": "LOGO"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_PRIMARY",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true,
+                  "fixedIntensity": true
+                },
+                {
+                  "id": "COLORWAVE",
+                  "syncable": false,
+                  "fixedIntensity": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true,
+                  "fixedIntensity": true
+                }
+              ]
+            },
+            {
+              "zoneType": "ZONE_BRANDING",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true,
+                  "fixedIntensity": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true,
+                  "fixedIntensity": true
+                }
+              ]
+            }
+          ],
+          "isPerKey": true
+        },
+        "mstateCount": "3"
+      }
+    },
+    {
+      "modelId": "g910v2",
+      "displayName": "G910",
+      "extendedDisplayName": "G910 Orion Spectrum",
+      "slotPrefix": "g910",
+      "type": "keyboard",
+      "depotPrefix": "g910",
+      "thumbnail": "pipeline://core/thumbnails/g910.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c335"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "lightingSupport": {
+          "deviceCategory": "KEYBOARD_RGB_PER_KEY",
+          "typeMap": {
+            "PERKEY_KEYBOARD": "HID_KEYBOARD",
+            "PERKEY_BRANDING": "LOGO",
+            "PERKEY_GKEY": "G_KEY",
+            "ZONE_PRIMARY": "PRIMARY",
+            "ZONE_BRANDING": "LOGO"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_PRIMARY",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true,
+                  "fixedIntensity": true
+                },
+                {
+                  "id": "COLORWAVE",
+                  "syncable": false,
+                  "fixedIntensity": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true,
+                  "fixedIntensity": true
+                }
+              ]
+            },
+            {
+              "zoneType": "ZONE_BRANDING",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true,
+                  "fixedIntensity": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true,
+                  "fixedIntensity": true
+                }
+              ]
+            }
+          ],
+          "isPerKey": true
+        },
+        "mstateCount": 3
+      }
+    },
+    {
+      "modelId": "g915",
+      "displayName": "G915",
+      "extendedDisplayName": "G915 Wireless RGB Mechanical Gaming Keyboard",
+      "slotPrefix": "g915",
+      "type": "keyboard",
+      "depotPrefix": "g915",
+      "thumbnail": "pipeline://core/thumbnails/g915.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "wireless": true,
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_407c",
+                "mainFirmware": true,
+                "derivatives": [
+                  {
+                    "id": "046d_407c",
+                    "extendedModel": 1
+                  },
+                  {
+                    "id": "046d_407c",
+                    "extendedModel": 2
+                  },
+                  {
+                    "id": "046d_407c",
+                    "extendedModel": 3,
+                    "displayName": "G913",
+                    "extendedDisplayName": "G913 Wireless RGB Mechanical Gaming Keyboard"
+                  },
+                  {
+                    "id": "046d_407c",
+                    "extendedModel": 4,
+                    "displayName": "G913",
+                    "extendedDisplayName": "G913 Wireless RGB Mechanical Gaming Keyboard"
+                  },
+                  {
+                    "id": "046d_407c",
+                    "extendedModel": 5,
+                    "displayName": "G913",
+                    "extendedDisplayName": "G913 Wireless RGB Mechanical Gaming Keyboard"
+                  }
+                ]
+              },
+              {
+                "bus": "hidio",
+                "id": "HID_046d_c541_ff000001"
+              }
+            ]
+          },
+          {
+            "wireless": true,
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_aae9",
+                "is_bootloader": true
+              }
+            ]
+          },
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c33e",
+                "mainFirmware": true,
+                "derivatives": [
+                  {
+                    "id": "046d_c33e",
+                    "extendedModel": 1
+                  },
+                  {
+                    "id": "046d_c33e",
+                    "extendedModel": 2
+                  },
+                  {
+                    "id": "046d_c33e",
+                    "extendedModel": 3,
+                    "displayName": "G913",
+                    "extendedDisplayName": "G913 Wireless RGB Mechanical Gaming Keyboard"
+                  },
+                  {
+                    "id": "046d_c33e",
+                    "extendedModel": 4,
+                    "displayName": "G913",
+                    "extendedDisplayName": "G913 Wireless RGB Mechanical Gaming Keyboard"
+                  },
+                  {
+                    "id": "046d_c33e",
+                    "extendedModel": 5,
+                    "displayName": "G913",
+                    "extendedDisplayName": "G913 Wireless RGB Mechanical Gaming Keyboard"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_aae3",
+                "is_bootloader": true,
+                "derivatives": [
+                  {
+                    "id": "046d_aae3",
+                    "extendedModel": 1
+                  },
+                  {
+                    "id": "046d_aae3",
+                    "extendedModel": 2
+                  },
+                  {
+                    "id": "046d_aae3",
+                    "extendedModel": 3,
+                    "displayName": "G913",
+                    "extendedDisplayName": "G913 Wireless RGB Mechanical Gaming Keyboard"
+                  },
+                  {
+                    "id": "046d_aae3",
+                    "extendedModel": 4,
+                    "displayName": "G913",
+                    "extendedDisplayName": "G913 Wireless RGB Mechanical Gaming Keyboard"
+                  },
+                  {
+                    "id": "046d_aae3",
+                    "extendedModel": 5,
+                    "displayName": "G913",
+                    "extendedDisplayName": "G913 Wireless RGB Mechanical Gaming Keyboard"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "lightingSupport": {
+          "deviceCategory": "KEYBOARD_RGB_PER_KEY",
+          "typeMap": {
+            "PERKEY_KEYBOARD": "HID_KEYBOARD",
+            "PERKEY_INDICATOR": "KEYBOARD_OTHER",
+            "PERKEY_CONSUMER": "HID_CONSUMER",
+            "PERKEY_BRANDING": "LOGO",
+            "PERKEY_GKEY": "G_KEY",
+            "ZONE_PRIMARY": "PRIMARY",
+            "ZONE_BRANDING": "LOGO"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_PRIMARY",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "COLORWAVE",
+                  "syncable": false
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                },
+                {
+                  "id": "RIPPLE",
+                  "syncable": false
+                }
+              ]
+            },
+            {
+              "zoneType": "ZONE_BRANDING",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            }
+          ],
+          "hideStartupEffect": true,
+          "isPerKey": true,
+          "persistence": {
+            "perKeyCustom": 2
+          },
+          "powerSavingEffect": true,
+          "lowBatteryEffect": true,
+          "brightnessPercentage": true
+        },
+        "dualMode": true,
+        "mstateCount": "3",
+        "presentSplashScreen": true
+      }
+    },
+    {
+      "modelId": "g920",
+      "displayName": "G920",
+      "extendedDisplayName": "G920 Driving Force Racing Wheel",
+      "slotPrefix": "g920",
+      "type": "steering_wheel",
+      "depot": "g920",
+      "thumbnail": "pipeline://core/thumbnails/g920.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "hidio",
+                "id": "RAW_USB_046d_c261"
+              }
+            ]
+          },
+          {
+            "interfaces": [
+              {
+                "bus": "hidio_filter",
+                "id": "MASKABLE_046d_c262_00010004"
+              },
+              {
+                "bus": "hidio",
+                "id": "HID_046d_c262_ff430604"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "gamingAttachments": {
+          "attachments": [
+            {
+              "id": "daylight_starlight_shifter",
+              "slotIds": [
+                "g920_g12_m1",
+                "g920_g13_m1",
+                "g920_g14_m1",
+                "g920_g15_m1",
+                "g920_g16_m1",
+                "g920_g17_m1",
+                "g920_g18_m1",
+                "g920_g12_m1_shifted",
+                "g920_g13_m1_shifted",
+                "g920_g14_m1_shifted",
+                "g920_g15_m1_shifted",
+                "g920_g16_m1_shifted",
+                "g920_g17_m1_shifted",
+                "g920_g18_m1_shifted"
+              ]
+            },
+            {
+              "id": "daylight_starlight_pedals",
+              "slotIds": [
+                "g920_pedal_settings"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "modelId": "g933",
+      "displayName": "G933",
+      "extendedDisplayName": "G933 Gaming Wireless Headset",
+      "slotPrefix": "g933",
+      "type": "headset",
+      "depot": "g933",
+      "thumbnail": "pipeline://core/thumbnails/g933.png",
+      "driver": {
+        "windowsIds": [
+          "audio"
+        ]
+      },
+      "virtualDevice": {
+        "modes": [
+          {
+            "wireless": true,
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_0a5b",
+                "derivatives": [
+                  {
+                    "id": "046d_0a5b",
+                    "extendedModel": 1,
+                    "modelId": "g933_ext1",
+                    "extendedDisplayName": "G933 Artemis Spectrum Snow",
+                    "thumbnail": "pipeline://core/thumbnails/g933_ext1.png"
+                  }
+                ]
+              },
+              {
+                "bus": "hidio",
+                "id": "HID_046d_0a5b_000b0001",
+                "adaptor": "telephony"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "audio": {
+          "dtsSupported": true,
+          "dolbySupported": true,
+          "denoiserSupported": true,
+          "onboardEqSupported": true
+        },
+        "sleepTimer": true,
+        "lightingSupport": {
+          "deviceCategory": "HEADSET_RGB_ZONAL",
+          "typeMap": {
+            "ZONE_PRIMARY": "PRIMARY",
+            "ZONE_BRANDING": "LOGO"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_PRIMARY",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            },
+            {
+              "zoneType": "ZONE_BRANDING",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            }
+          ],
+          "persistence": {
+            "zoneEffects": true
+          },
+          "gamma": true
+        }
+      }
+    },
+    {
+      "modelId": "g935",
+      "displayName": "G935",
+      "extendedDisplayName": "G935 Wireless 7.1 LIGHTSYNC Gaming Headset",
+      "slotPrefix": "g935",
+      "type": "headset",
+      "depot": "g935",
+      "thumbnail": "pipeline://core/thumbnails/g935.png",
+      "driver": {
+        "windowsIds": [
+          "audio"
+        ]
+      },
+      "virtualDevice": {
+        "modes": [
+          {
+            "wireless": true,
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_0a87",
+                "derivatives": [
+                  {
+                    "id": "046d_0a87",
+                    "extendedModel": 1,
+                    "modelId": "g933s",
+                    "displayName": "G933s",
+                    "extendedDisplayName": "G933s Wireless 7.1 LIGHTSYNC Gaming Headset",
+                    "thumbnail": "pipeline://core/thumbnails/g933s.png"
+                  }
+                ]
+              },
+              {
+                "bus": "hidio",
+                "id": "HID_046d_0a87_000b0001",
+                "adaptor": "telephony"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "audio": {
+          "denoiserSupported": true,
+          "onboardEqSupported": true,
+          "dtsHx2eSupported": true
+        },
+        "sleepTimer": true,
+        "advancedSleepTimer": true,
+        "lightingSupport": {
+          "deviceCategory": "HEADSET_RGB_ZONAL",
+          "typeMap": {
+            "ZONE_PRIMARY": "PRIMARY",
+            "ZONE_BRANDING": "LOGO"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_PRIMARY",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            },
+            {
+              "zoneType": "ZONE_BRANDING",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            }
+          ],
+          "persistence": {
+            "zoneEffects": true
+          },
+          "gamma": true
+        }
+      }
+    },
+    {
+      "modelId": "mx518",
+      "displayName": "MX518",
+      "extendedDisplayName": "MX518 Gaming Mouse",
+      "slotPrefix": "mx518",
+      "type": "mouse",
+      "depot": "mx518",
+      "thumbnail": "pipeline://core/thumbnails/mx518.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c08e"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "dpiTableOverride": {
+          "levels": [
+            400,
+            800,
+            1600,
+            3200
+          ],
+          "defaultDpi": 1600,
+          "shiftDpi": 800,
+          "activeDpi": 1600
+        }
+      }
+    },
+    {
+      "modelId": "powerplay",
+      "displayName": "POWERPLAY",
+      "extendedDisplayName": "POWERPLAY Wireless Charging System",
+      "slotPrefix": "powerplay",
+      "type": "charge_pad",
+      "depot": "powerplay",
+      "thumbnail": "pipeline://core/thumbnails/powerplay.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "wireless": true,
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_405f"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "lightingSupport": {
+          "deviceCategory": "MOUSEPAD_RGB_ZONAL",
+          "typeMap": {
+            "ZONE_BRANDING": "LOGO"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_BRANDING",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "modelId": "pro_gaming_headset",
+      "displayName": "PRO",
+      "extendedDisplayName": "Pro Gaming Headset",
+      "slotPrefix": "proheadset",
+      "type": "headset",
+      "depot": "pro_headset",
+      "thumbnail": "pipeline://core/thumbnails/pro_headset.png",
+      "driver": {
+        "windowsIds": [
+          "audio"
+        ]
+      },
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_0aa7",
+                "extendedModel": 255
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "audio": {
+          "onboardProEqSupported": true,
+          "proEqSupported": true,
+          "denoiserSupported": true,
+          "hardwareNoiseReductionSupported": true
+        }
+      }
+    },
+    {
+      "modelId": "pro_71_gaming_headset",
+      "displayName": "PRO X",
+      "extendedDisplayName": "PRO X Gaming Headset",
+      "slotPrefix": "pro71headset",
+      "type": "headset",
+      "depot": "pro_headset",
+      "thumbnail": "pipeline://core/thumbnails/pro_headset.png",
+      "driver": {
+        "windowsIds": [
+          "audio"
+        ],
+        "osxIds": [
+          "com.logi.gaming.audio.override"
+        ]
+      },
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_0aaa",
+                "extendedModel": 255
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "audio": {
+          "dtsHx2eSupported": true,
+          "onboardProEqSupported": true,
+          "proEqSupported": true,
+          "denoiserSupported": true,
+          "blueVoiceSupported": true,
+          "hardwareNoiseReductionSupported": true
+        }
+      }
+    },
+    {
+      "modelId": "pro_keyboard",
+      "displayName": "PRO",
+      "extendedDisplayName": "PRO Mechanical gaming keyboard",
+      "slotPrefix": "prokeyboard",
+      "type": "keyboard",
+      "depotPrefix": "pro_keyboard",
+      "thumbnail": "pipeline://core/thumbnails/pro_keyboard.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c339",
+                "derivatives": [
+                  {
+                    "id": "046d_c339",
+                    "extendedModel": 1,
+                    "modelId": "pro_keyboard_ext1",
+                    "displayName": "PRO",
+                    "thumbnail": "pipeline://core/thumbnails/pro_keyboard.png",
+                    "extendedDisplayName": "PRO Mechanical gaming keyboard"
+                  },
+                  {
+                    "id": "046d_c339",
+                    "extendedModel": 2,
+                    "modelId": "pro_keyboard_ext2",
+                    "displayName": "PRO",
+                    "thumbnail": "pipeline://core/thumbnails/pro_keyboard.png",
+                    "extendedDisplayName": "PRO Mechanical gaming keyboard"
+                  },
+                  {
+                    "id": "046d_c339",
+                    "extendedModel": 3,
+                    "modelId": "pro_keyboard_ext3",
+                    "displayName": "PRO",
+                    "thumbnail": "pipeline://core/thumbnails/pro_keyboard.png",
+                    "extendedDisplayName": "PRO Mechanical gaming keyboard"
+                  },
+                  {
+                    "id": "046d_c339",
+                    "extendedModel": 4,
+                    "modelId": "pro_keyboard_ext4",
+                    "displayName": "PRO",
+                    "thumbnail": "pipeline://core/thumbnails/pro_keyboard.png",
+                    "extendedDisplayName": "PRO Mechanical gaming keyboard"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_aadc"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "lightingSupport": {
+          "deviceCategory": "KEYBOARD_RGB_PER_KEY",
+          "typeMap": {
+            "PERKEY_KEYBOARD": "HID_KEYBOARD",
+            "PERKEY_BRANDING": "LOGO",
+            "PERKEY_INDICATOR": "KEYBOARD_OTHER",
+            "ZONE_PRIMARY": "PRIMARY",
+            "ZONE_BRANDING": "LOGO"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_PRIMARY",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true,
+                  "fixedIntensity": true
+                },
+                {
+                  "id": "COLORWAVE",
+                  "syncable": false,
+                  "fixedIntensity": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true,
+                  "fixedIntensity": true
+                }
+              ]
+            },
+            {
+              "zoneType": "ZONE_BRANDING",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true,
+                  "fixedIntensity": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true,
+                  "fixedIntensity": true
+                }
+              ]
+            }
+          ],
+          "isPerKey": true,
+          "persistence": {
+            "perKeyFixed": true
+          }
+        },
+        "fnInversion": true,
+        "reportHidControls": {
+          "pages": [
+            {
+              "page": 7,
+              "usages": [
+                {
+                  "usage": 58,
+                  "button": 1
+                },
+                {
+                  "usage": 59,
+                  "button": 2
+                },
+                {
+                  "usage": 60,
+                  "button": 3
+                },
+                {
+                  "usage": 61,
+                  "button": 4
+                },
+                {
+                  "usage": 62,
+                  "button": 5
+                },
+                {
+                  "usage": 63,
+                  "button": 6
+                },
+                {
+                  "usage": 64,
+                  "button": 7
+                },
+                {
+                  "usage": 65,
+                  "button": 8
+                },
+                {
+                  "usage": 66,
+                  "button": 9
+                },
+                {
+                  "usage": 67,
+                  "button": 10
+                },
+                {
+                  "usage": 68,
+                  "button": 11
+                },
+                {
+                  "usage": 69,
+                  "button": 12
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "modelId": "pro_mouse",
+      "displayName": "PRO",
+      "extendedDisplayName": "PRO Gaming Mouse",
+      "slotPrefix": "promouse",
+      "type": "mouse",
+      "depot": "pro_mouse",
+      "thumbnail": "pipeline://core/thumbnails/pro_mouse.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c085",
+                "derivatives": [
+                  {
+                    "id": "046d_c085",
+                    "extendedModel": 1,
+                    "modelId": "pro_mouse_ext1",
+                    "thumbnail": "pipeline://core/thumbnails/pro_mouse_ext_1.png",
+                    "extendedDisplayName": "PRO Gaming Mouse Battlefield 1 Edition"
+                  },
+                  {
+                    "bus": "devio",
+                    "id": "046d_c08c",
+                    "displayName": "PRO (HERO)"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "lightingSupport": {
+          "deviceCategory": "MOUSE_RGB_ZONAL",
+          "typeMap": {
+            "ZONE_BRANDING": "LOGO"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_BRANDING",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            }
+          ]
+        },
+        "angleSnapping": true
+      }
+    },
+    {
+      "modelId": "pro_wireless_mouse",
+      "displayName": "PRO WIRELESS",
+      "extendedDisplayName": "Pro Wireless Mouse",
+      "slotPrefix": "prowirelessmouse",
+      "type": "mouse",
+      "depot": "pro_wireless_mouse_depot",
+      "thumbnail": "pipeline://core/thumbnails/pro_wireless_mouse.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c088"
+              }
+            ]
+          },
+          {
+            "wireless": true,
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_4079"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "maskableZones": {
+          "zones": [
+            {
+              "id": "bottom_left",
+              "slotIds": [
+                "prowirelessmouse_g4_m1",
+                "prowirelessmouse_g4_m1_shifted"
+              ],
+              "displayIconKey": "mouse_4_buttons_bottom_left_icon",
+              "renderIconKey": "cover_bottom_left"
+            },
+            {
+              "id": "top_left",
+              "slotIds": [
+                "prowirelessmouse_g5_m1",
+                "prowirelessmouse_g5_m1_shifted"
+              ],
+              "displayIconKey": "mouse_4_buttons_top_left_icon",
+              "renderIconKey": "cover_top_left"
+            },
+            {
+              "id": "bottom_right",
+              "slotIds": [
+                "prowirelessmouse_g7_m1",
+                "prowirelessmouse_g7_m1_shifted"
+              ],
+              "displayIconKey": "mouse_4_buttons_bottom_right_icon",
+              "renderIconKey": "cover_bottom_right"
+            },
+            {
+              "id": "top_right",
+              "slotIds": [
+                "prowirelessmouse_g8_m1",
+                "prowirelessmouse_g8_m1_shifted"
+              ],
+              "displayIconKey": "mouse_4_buttons_top_right_icon",
+              "renderIconKey": "cover_top_right"
+            }
+          ]
+        },
+        "lightingSupport": {
+          "deviceCategory": "MOUSE_RGB_ZONAL",
+          "typeMap": {
+            "ZONE_PRIMARY": "PRIMARY",
+            "ZONE_BRANDING": "LOGO"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_PRIMARY",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            },
+            {
+              "zoneType": "ZONE_BRANDING",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                }
+              ]
+            }
+          ],
+          "lowBatteryEffect": true
+        },
+        "dualMode": true,
+        "dpiInfoOverride": {
+          "range": {
+            "min": 100,
+            "max": 16000,
+            "steps": 50
+          }
+        }
+      }
+    },
+    {
+      "modelId": "g430",
+      "displayName": "G430",
+      "extendedDisplayName": "G430",
+      "slotPrefix": "g430",
+      "type": "headset",
+      "depot": "g430",
+      "thumbnail": "pipeline://core/thumbnails/g430.png",
+      "driver": {
+        "windowsIds": [
+          "audio"
+        ]
+      },
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "hidio",
+                "id": "HID_046d_0a4d_000c0001"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "audio": {
+          "dtsSupported": true,
+          "dolbySupported": true,
+          "denoiserSupported": true,
+          "onboardEqSupported": false
+        }
+      }
+    },
+    {
+      "modelId": "yeti_x",
+      "displayName": "Yeti X",
+      "extendedDisplayName": "Yeti X",
+      "slotPrefix": "yetix",
+      "type": "microphone",
+      "depot": "yetix",
+      "thumbnail": "pipeline://core/thumbnails/yetix.png",
+      "driver": {
+        "windowsIds": [
+          "audio"
+        ],
+        "osxIds": [
+          "com.logi.gaming.audio.override"
+        ]
+      },
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_0aaf"
+              },
+              {
+                "bus": "hidio",
+                "id": "HID_046d_0aaf_ffff0001"
+              }
+            ]
+          },
+          {
+            "interfaces": [
+              {
+                "bus": "hidio",
+                "id": "HID_046d_0aae_ffff0001"
+              }
+            ]
+          },
+          {
+            "interfaces": [
+              {
+                "bus": "hidio",
+                "id": "USB_b58e_0008_00",
+                "is_bootloader": true
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "lightingSupport": {
+          "deviceCategory": "MICROPHONE_RGB_ZONAL",
+          "typeMap": {
+            "ZONE_PRIMARY": "PRIMARY",
+            "ZONE_BRANDING": "LOGO",
+            "ZONE_LEFT_SIDE": "LEFT_SIDE",
+            "ZONE_RIGHT_SIDE": "RIGHT_SIDE",
+            "ZONE_COMBINED": "COMBINED",
+            "ZONE_ONE": "ZONAL_ONE",
+            "ZONE_TWO": "ZONAL_TWO",
+            "ZONE_THREE": "ZONAL_THREE",
+            "ZONE_FOUR": "ZONAL_FOUR",
+            "ZONE_FIVE": "ZONAL_FIVE",
+            "ZONE_SIX": "ZONAL_SIX",
+            "ZONE_SEVEN": "ZONAL_SEVEN"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_PRIMARY",
+              "supportedEffects": [
+                {
+                  "id": "FIXED",
+                  "syncable": false
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": false
+                }
+              ],
+              "default_color": {
+                "rgba": {
+                  "red": 0.0,
+                  "green": 1.0,
+                  "blue": 0.0,
+                  "alpha": 1.0
+                }
+              }
+            },
+            {
+              "zoneType": "ZONE_BRANDING",
+              "supportedEffects": [
+                {
+                  "id": "FIXED",
+                  "syncable": false
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": false
+                }
+              ],
+              "default_color": {
+                "rgba": {
+                  "red": 1.0,
+                  "green": 0.0,
+                  "blue": 0.0,
+                  "alpha": 1.0
+                }
+              }
+            },
+            {
+              "zoneType": "ZONE_LEFT_SIDE",
+              "supportedEffects": [
+                {
+                  "id": "FIXED",
+                  "syncable": false
+                }
+              ],
+              "default_color": {
+                "rgba": {
+                  "red": 0.0,
+                  "green": 0.0,
+                  "blue": 1.0,
+                  "alpha": 1.0
+                }
+              }
+            },
+            {
+              "zoneType": "ZONE_RIGHT_SIDE",
+              "supportedEffects": [
+                {
+                  "id": "FIXED",
+                  "syncable": false
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": false
+                }
+              ],
+              "default_color": {
+                "rgba": {
+                  "red": 1.0,
+                  "green": 1.0,
+                  "blue": 1.0,
+                  "alpha": 1.0
+                }
+              }
+            },
+            {
+              "zoneType": "ZONE_COMBINED",
+              "supportedEffects": [
+                {
+                  "id": "FIXED",
+                  "syncable": false
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": false
+                }
+              ],
+              "default_color": {
+                "rgba": {
+                  "red": 1.0,
+                  "green": 0.0,
+                  "blue": 1.0,
+                  "alpha": 1.0
+                }
+              }
+            },
+            {
+              "zoneType": "ZONE_ONE",
+              "supportedEffects": [
+                {
+                  "id": "FIXED",
+                  "syncable": false
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": false
+                }
+              ],
+              "default_color": {
+                "rgba": {
+                  "red": 1.0,
+                  "green": 1.0,
+                  "blue": 1.0,
+                  "alpha": 1.0
+                }
+              }
+            },
+            {
+              "zoneType": "ZONE_TWO",
+              "supportedEffects": [
+                {
+                  "id": "FIXED",
+                  "syncable": false
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": false
+                }
+              ],
+              "default_color": {
+                "rgba": {
+                  "red": 1.0,
+                  "green": 1.0,
+                  "blue": 1.0,
+                  "alpha": 1.0
+                }
+              }
+            },
+            {
+              "zoneType": "ZONE_THREE",
+              "supportedEffects": [
+                {
+                  "id": "FIXED",
+                  "syncable": false
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": false
+                }
+              ],
+              "default_color": {
+                "rgba": {
+                  "red": 1.0,
+                  "green": 1.0,
+                  "blue": 1.0,
+                  "alpha": 1.0
+                }
+              }
+            },
+            {
+              "zoneType": "ZONE_FOUR",
+              "supportedEffects": [
+                {
+                  "id": "FIXED",
+                  "syncable": false
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": false
+                }
+              ],
+              "default_color": {
+                "rgba": {
+                  "red": 1.0,
+                  "green": 1.0,
+                  "blue": 1.0,
+                  "alpha": 1.0
+                }
+              }
+            },
+            {
+              "zoneType": "ZONE_FIVE",
+              "supportedEffects": [
+                {
+                  "id": "FIXED",
+                  "syncable": false
+                }
+              ],
+              "default_color": {
+                "rgba": {
+                  "red": 0.0,
+                  "green": 1.0,
+                  "blue": 0.0,
+                  "alpha": 1.0
+                }
+              }
+            },
+            {
+              "zoneType": "ZONE_SIX",
+              "supportedEffects": [
+                {
+                  "id": "FIXED",
+                  "syncable": false
+                }
+              ],
+              "default_color": {
+                "rgba": {
+                  "red": 1.0,
+                  "green": 1.0,
+                  "blue": 0.0,
+                  "alpha": 1.0
+                }
+              }
+            },
+            {
+              "zoneType": "ZONE_SEVEN",
+              "supportedEffects": [
+                {
+                  "id": "FIXED",
+                  "syncable": false
+                }
+              ],
+              "default_color": {
+                "rgba": {
+                  "red": 1.0,
+                  "green": 0.0,
+                  "blue": 0.0,
+                  "alpha": 1.0
+                }
+              }
+            }
+          ],
+          "hideStartupEffect": true
+        },
+        "microphoneSupport": {
+          "supportedPolarPatterns": [
+            {
+              "id": "POLAR_PATTERN_STEREO"
+            },
+            {
+              "id": "POLAR_PATTERN_OMNI"
+            },
+            {
+              "id": "POLAR_PATTERN_CARDIOID"
+            },
+            {
+              "id": "POLAR_PATTERN_BIDIRECTIONAL"
+            }
+          ],
+          "supportedMicrophoneModes": [
+            {
+              "id": "MICROPHONE_GAIN"
+            },
+            {
+              "id": "HEADPHONE_LEVEL"
+            },
+            {
+              "id": "BLEND"
+            }
+          ]
+        },
+        "headphoneJack": true,
+        "audio": {
+          "dtsHx2eSupported": true,
+          "blueVoiceSupported": true
+        }
+      }
+    },
+    {
+      "modelId": "g203_2",
+      "displayName": "G203",
+      "extendedDisplayName": "G203 Prodigy Gaming Mouse",
+      "slotPrefix": "g102g203",
+      "type": "mouse",
+      "depot": "g102_g203",
+      "thumbnail": "pipeline://core/thumbnails/g203_black.png",
+      "virtualDevice": {
+        "modes": [
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_c092",
+                "extendedModel": 2,
+                "derivatives": [
+                  {
+                    "id": "046d_c092",
+                    "extendedModel": 0,
+                    "modelId": "g203_0",
+                    "displayName": "G203 LIGHTSYNC",
+                    "thumbnail": "pipeline://core/thumbnails/g203_black.png",
+                    "extendedDisplayName": "G203 LIGHTSYNC Gaming Mouse"
+                  },
+                  {
+                    "id": "046d_c092",
+                    "extendedModel": 1,
+                    "modelId": "g203_1",
+                    "displayName": "G102 LIGHTSYNC",
+                    "thumbnail": "pipeline://core/thumbnails/g203_black.png",
+                    "extendedDisplayName": "G102 LIGHTSYNC Gaming Mouse"
+                  },
+                  {
+                    "id": "046d_c092",
+                    "extendedModel": 2,
+                    "modelId": "g203_2",
+                    "displayName": "G203 LIGHTSYNC",
+                    "thumbnail": "pipeline://core/thumbnails/g203_white.png",
+                    "extendedDisplayName": "G203 LIGHTSYNC Gaming Mouse"
+                  },
+                  {
+                    "id": "046d_c092",
+                    "extendedModel": 3,
+                    "modelId": "g203_3",
+                    "displayName": "G102 LIGHTSYNC",
+                    "thumbnail": "pipeline://core/thumbnails/g203_white.png",
+                    "extendedDisplayName": "G102 LIGHTSYNC Gaming Mouse"
+                  },
+                  {
+                    "id": "046d_c092",
+                    "extendedModel": 4,
+                    "modelId": "g203_4",
+                    "displayName": "G203 LIGHTSYNC",
+                    "thumbnail": "pipeline://core/thumbnails/g203_blue.png",
+                    "extendedDisplayName": "G203 LIGHTSYNC Gaming Mouse"
+                  },
+                  {
+                    "id": "046d_c092",
+                    "extendedModel": 5,
+                    "modelId": "g203_5",
+                    "displayName": "G102 LIGHTSYNC",
+                    "thumbnail": "pipeline://core/thumbnails/g203_blue.png",
+                    "extendedDisplayName": "G102 LIGHTSYNC Gaming Mouse"
+                  },
+                  {
+                    "id": "046d_c092",
+                    "extendedModel": 6,
+                    "modelId": "g203_6",
+                    "displayName": "G102 LIGHTSYNC",
+                    "thumbnail": "pipeline://core/thumbnails/g203_black.png",
+                    "extendedDisplayName": "G102 LIGHTSYNC Gaming Mouse"
+                  },
+                  {
+                    "id": "046d_c092",
+                    "extendedModel": 7,
+                    "modelId": "g203_7",
+                    "displayName": "G102 LIGHTSYNC",
+                    "thumbnail": "pipeline://core/thumbnails/g203_white.png",
+                    "extendedDisplayName": "G102 LIGHTSYNC Gaming Mouse"
+                  },
+                  {
+                    "id": "046d_c092",
+                    "extendedModel": 8,
+                    "modelId": "g203_8",
+                    "displayName": "G203 LIGHTSYNC",
+                    "thumbnail": "pipeline://core/thumbnails/g203_lilac.png",
+                    "extendedDisplayName": "G203 LIGHTSYNC Gaming Mouse"
+                  },
+                  {
+                    "id": "046d_c092",
+                    "extendedModel": 9,
+                    "modelId": "g203_9",
+                    "displayName": "G102 LIGHTSYNC",
+                    "thumbnail": "pipeline://core/thumbnails/g203_lilac.png",
+                    "extendedDisplayName": "G102 LIGHTSYNC Gaming Mouse"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "interfaces": [
+              {
+                "bus": "devio",
+                "id": "046d_aafd"
+              }
+            ]
+          }
+        ]
+      },
+      "capabilities": {
+        "lightingSupport": {
+          "deviceCategory": "MOUSE_RGB_PER_KEY",
+          "typeMap": {
+            "PERKEY_COSMETIC": "",
+            "ZONE_BRANDING": "LOGO"
+          },
+          "zones": [
+            {
+              "zoneType": "ZONE_BRANDING",
+              "supportedEffects": [
+                {
+                  "id": "OFF",
+                  "syncable": true
+                },
+                {
+                  "id": "FIXED",
+                  "syncable": true
+                },
+                {
+                  "id": "CYCLE",
+                  "syncable": true
+                },
+                {
+                  "id": "BREATHING",
+                  "syncable": true
+                },
+                {
+                  "id": "COLORWAVE",
+                  "syncable": false
+                },
+                {
+                  "id": "DECOMPOSITION",
+                  "syncable": false
+                }
+              ]
+            }
+          ],
+          "isPerKey": true
+        },
+        "dpiInfoOverride": {
+          "range": {
+            "min": 200,
+            "max": 8000,
+            "steps": 50
+          }
+        }
+      }
+    }
+  ]
+}

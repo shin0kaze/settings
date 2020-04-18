@@ -1,0 +1,74 @@
+{
+  "keyframeInfo": {
+    "direction": "RANDOM",
+    "keyframeMap": {
+      "0": {
+        "length": 15,
+        "lightingSlots": {
+          "infoMap": {
+            "PERKEY_COSMETIC": {
+              "perKeyMap": {
+                "colorCodeMap": {
+                  "1": {
+                    "hex": "#ff0000"
+                  },
+                  "2": {
+                    "hex": "#ff0000"
+                  },
+                  "3": {
+                    "hex": "#ff0000"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "1": {
+        "length": 14,
+        "lightingSlots": {
+          "infoMap": {
+            "PERKEY_COSMETIC": {
+              "perKeyMap": {
+                "colorCodeMap": {
+                  "1": {
+                    "hex": "#ffffff"
+                  },
+                  "2": {
+                    "hex": "#ffffff"
+                  },
+                  "3": {
+                    "hex": "#ffffff"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "2": {
+        "length": 14,
+        "lightingSlots": {
+          "infoMap": {
+            "PERKEY_COSMETIC": {
+              "perKeyMap": {
+                "colorCodeMap": {
+                  "1": {
+                    "hex": "#0000ff"
+                  },
+                  "2": {
+                    "hex": "#0000ff"
+                  },
+                  "3": {
+                    "hex": "#0000ff"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "speed": 100
+  }
+}

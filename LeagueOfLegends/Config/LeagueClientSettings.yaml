@@ -1,0 +1,52 @@
+install:
+    crash_reporting:
+        type: "crashpad"
+    game-settings:
+        accountId: 2441719985410368
+        modified: false
+        timestamp: 1587578669866
+    gameflow-patcher-lock: null
+    gameflow-process-info: null
+    gameflow-spectate-reconnect-info: null
+    globals:
+        locale: "ru_RU"
+        region: "RU"
+    lcu-settings:
+        accountId: 2441719985410368
+        modified: false
+        timestamp: 1587578795897
+    licensesAgreedTo:
+        4F039B7708ED4333FA6715B86A2FE534: null
+        669805AFB549049B0BC076CAE84983F7: null
+    login-remember-me:
+        rememberMe: false
+        username: ""
+    npe-splash:
+        enableNewPlayerSplash: false
+    patcher:
+        client_migrated: true
+        client_patcher_available: true
+        client_patcher_migrated_time: "2019-11-15T11:26:53Z"
+        game_migrated: true
+        game_patcher_available: true
+        game_patcher_migrated_time: "2019-11-15T11:26:53Z"
+        locales:
+        - "en_GB"
+        - "ru_RU"
+        toggles:
+            new_client_patcher: 0
+            new_game_patcher: 0
+    perks-settings:
+        accountId: 2441719985410368
+        modified: false
+        timestamp: 1587576276214
+    riotclient-upgrade:
+        seq-success-count: 100
+        success-count: 100
+        uninstaller-repaired: true
+        uninstaller-updated: true
+    rso-auth:
+        install-identifier: "0021814ecc760d4daf5163b7a71922c0"
+    telemetry:
+        fresh_installation: true
+        installation_id: "FE2Tjg=="

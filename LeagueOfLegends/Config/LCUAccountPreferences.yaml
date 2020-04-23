@@ -1,0 +1,139 @@
+career-stats-settings:
+    data:
+        initialVisited: true
+        welcomedSeason: 10
+    schemaVersion: 1
+champ-select:
+    data:
+        skins:
+            111: 111000
+            22: 22000
+            245: 245000
+            26: 26000
+            27: 27000
+            350: 350000
+            37: 37000
+            92: 92000
+            99: 99000
+        spells:
+            400:
+            - 3
+            - 14
+            430:
+            - 3
+            - 14
+            450:
+            - 13
+            - 14
+    schemaVersion: 1
+custom-spell-selections:
+    data:
+        custom-spell-selections:
+            spell1: 3
+            spell2: 14
+    schemaVersion: 0
+emotes:
+    data:
+        newEmotes: []
+    schemaVersion: 1
+lol-clash:
+    data:
+        clash-start-modal-seen: true
+    schemaVersion: 1
+lol-collection-champions:
+    data:
+        groupingDropdownKey: "role"
+        lastVisitTime: 1587574302223
+        sortingDropdownKey: "firstLetterAscending"
+        unownedFilter: "none"
+    schemaVersion: 1
+lol-collection-chromas:
+    data:
+        groupingDropdownKey: "myCollection"
+        lastVisitTime: 1587278670089
+        sortingDropdownKey: "acquisitionDate"
+        unavailableFilter: false
+        unownedFilter: false
+    schemaVersion: 2
+lol-collection-summoner-icons:
+    data:
+        groupingDropdownKey: "all"
+        lastVisitTime: 1587362726629
+        sortingDropdownKey: "releaseDate"
+        unavailableFilter: false
+        unownedFilter: true
+    schemaVersion: 2
+lol-collection-wards:
+    data:
+        groupingDropdownKey: "myCollection"
+        lastVisitTime: 1587278690937
+        sortingDropdownKey: "acquisitionDateGrouped"
+        unavailableFilter: false
+        unownedFilter: false
+    schemaVersion: 2
+lol-eternals:
+    data:
+        firstTouchModalSeen: true
+    schemaVersion: 0
+lol-leagues:
+    data:
+        season-start-takeover:
+            season: 10
+    schemaVersion: 1
+lol-notifications:
+    data:
+        rgmNotificationTimestamp: 1586896785984
+    schemaVersion: 1
+lol-npe-first-touch:
+    data:
+        modeSelected: "summoners-rift"
+    schemaVersion: 1
+lol-npe-rewards:
+    data:
+        challenges:
+            allMissionsCompleted: false
+            totalCount: 8
+        login:
+            allRewardsClaimed: false
+            lastCompletedMissionDate: 1587573245000
+            lastCompletedMissionInternalName: "npe_rewards_login_v1_step5"
+    schemaVersion: 1
+lol-npe-tutorial-path:
+    data:
+        hasSeenTutorialPath: true
+        hasSkippedTutorialPath: true
+        shouldSeeNewPlayerExperience: true
+    schemaVersion: 1
+lol-parties:
+    data:
+        hasSeenOpenPartyFirstExperience: true
+        hasSeenOpenPartyTooltip: true
+    schemaVersion: 1
+lol-premade-voice:
+    data:
+        autoJoin: true
+        inputMode: "voiceActivity"
+        muteOnConnect: false
+        pushToTalkKey: "[<Unbound>]"
+        showFirstExperienceInGame: true
+        showFirstExperienceInLCU: false
+    schemaVersion: 1
+lol-tft:
+    data:
+        previouslySeenSeasons: "S3_Galaxies-pass,S3_Galaxies-parties"
+    schemaVersion: 1
+lol-tutorial:
+    data:
+        championSelectRunesTooltipSeenCount: 9
+        garenaOrangeEssenceTutorialDisplayed: true
+        npeRewardsV1IntroSeen: true
+        perksCreateNewPageSeen: true
+        perksPresetPagesSeen: true
+        perksPrimaryPathSeen: true
+        perksStatModsSeen: true
+        rpChangeEatDisplayed: true
+    schemaVersion: 1
+missions-settings:
+    data:
+        selected_series: "TFTBattlepass_series"
+    schemaVersion: 0

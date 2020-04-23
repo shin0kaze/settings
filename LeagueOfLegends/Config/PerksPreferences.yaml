@@ -1,0 +1,36 @@
+page-settings:
+    data:
+        pages: []
+        perShardPerkBooks:
+            ru:
+                currentPageId: 1488059482
+                pages:
+                -   autoModifiedSelections: []
+                    current: true
+                    id: 1488059482
+                    isActive: false
+                    isDeletable: true
+                    isEditable: true
+                    isValid: true
+                    lastModified: 1587576236513
+                    name: "sup"
+                    order: 0
+                    primaryStyleId: 8200
+                    selectedPerkIds:
+                    - 8214
+                    - 8226
+                    - 8210
+                    - 8236
+                    - 8134
+                    - 8120
+                    - 5007
+                    - 5008
+                    - 5001
+                    subStyleId: 8100
+        settings:
+            gameplayPatchVersionSeen: "9.23"
+            gameplayUpdatedPerksSeen: []
+            gridModeEnabled: false
+            showLongDescriptions: false
+            showPresetPages: true
+    schemaVersion: 5

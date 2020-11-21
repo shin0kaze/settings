@@ -6,13 +6,26 @@ career-stats-settings:
 champ-select:
     data:
         skins:
+            1: 1000
             111: 111000
+            117: 117000
+            143: 143000
+            201: 201000
             22: 22000
+            222: 222000
             245: 245000
             26: 26000
+            266: 266000
             27: 27000
+            29: 29000
             350: 350000
             37: 37000
+            4: 4000
+            51: 51000
+            78: 78000
+            81: 81000
+            82: 82000
+            89: 89000
             92: 92000
             99: 99000
         spells:
@@ -20,21 +33,44 @@ champ-select:
             - 3
             - 14
             430:
-            - 3
-            - 14
+            - 6
+            - 11
             450:
             - 13
-            - 14
+            - 3
+            850:
+            - 6
+            - 3
+            900:
+            - 6
+            - 3
+    schemaVersion: 1
+cosmetics-last-viewed-date:
+    data:
+        typeToLastOpenedDate:
+            COMPANION: 1604840584
+            TFT_DAMAGE_SKIN: 1604837529
+            TFT_MAP_SKIN: 1604837529
     schemaVersion: 1
 custom-spell-selections:
     data:
         custom-spell-selections:
-            spell1: 3
-            spell2: 14
+            spell1: 14
+            spell2: 3
     schemaVersion: 0
 emotes:
     data:
         newEmotes: []
+    schemaVersion: 1
+lol-champ-select:
+    data:
+        reportAndMutingTooltipShown: true
+    schemaVersion: 0
+lol-chat:
+    data:
+        chatFilterDisabled: true
+        friendRequestToastsDisabled: true
+        linkClickWarningEnabled: false
     schemaVersion: 1
 lol-clash:
     data:
@@ -42,47 +78,53 @@ lol-clash:
     schemaVersion: 1
 lol-collection-champions:
     data:
-        groupingDropdownKey: "role"
-        lastVisitTime: 1587574302223
+        groupingDropdownKey: "ownership"
+        lastVisitTime: 1605927270330
         sortingDropdownKey: "firstLetterAscending"
-        unownedFilter: "none"
+        unownedFilter: "owned"
     schemaVersion: 1
 lol-collection-chromas:
     data:
-        groupingDropdownKey: "myCollection"
-        lastVisitTime: 1587278670089
-        sortingDropdownKey: "acquisitionDate"
-        unavailableFilter: false
-        unownedFilter: false
-    schemaVersion: 2
-lol-collection-summoner-icons:
-    data:
         groupingDropdownKey: "all"
-        lastVisitTime: 1587362726629
+        lastVisitTime: 1604787947480
         sortingDropdownKey: "releaseDate"
         unavailableFilter: false
         unownedFilter: true
     schemaVersion: 2
-lol-collection-wards:
+lol-collection-summoner-icons:
     data:
         groupingDropdownKey: "myCollection"
-        lastVisitTime: 1587278690937
-        sortingDropdownKey: "acquisitionDateGrouped"
+        lastVisitTime: 1604787947481
+        sortingDropdownKey: "acquisitionDate"
         unavailableFilter: false
         unownedFilter: false
     schemaVersion: 2
+lol-collection-wards:
+    data:
+        groupingDropdownKey: "myCollection"
+        lastVisitTime: 1604787947481
+        sortingDropdownKey: "acquisitionDate"
+        unavailableFilter: false
+        unownedFilter: false
+    schemaVersion: 3
 lol-eternals:
     data:
         firstTouchModalSeen: true
     schemaVersion: 0
+lol-general:
+    data:
+        newbieTipsEnabled: true
+    schemaVersion: 1
 lol-leagues:
     data:
+        last-split-end-notification: 10.300000
         season-start-takeover:
             season: 10
     schemaVersion: 1
 lol-notifications:
     data:
-        rgmNotificationTimestamp: 1586896785984
+        disableEsportsNotifications: true
+        rgmNotificationTimestamp: 1604054372407
     schemaVersion: 1
 lol-npe-first-touch:
     data:
@@ -94,9 +136,9 @@ lol-npe-rewards:
             allMissionsCompleted: false
             totalCount: 8
         login:
-            allRewardsClaimed: false
-            lastCompletedMissionDate: 1587573245000
-            lastCompletedMissionInternalName: "npe_rewards_login_v1_step5"
+            allRewardsClaimed: true
+            lastCompletedMissionDate: 1604603086000
+            lastCompletedMissionInternalName: "npe_rewards_login_v1_step7"
     schemaVersion: 1
 lol-npe-tutorial-path:
     data:
@@ -109,18 +151,29 @@ lol-parties:
         hasSeenOpenPartyFirstExperience: true
         hasSeenOpenPartyTooltip: true
     schemaVersion: 1
+lol-player-behavior:
+    data:
+        codeOfConductAccepted: true
+    schemaVersion: 0
 lol-premade-voice:
     data:
-        autoJoin: true
-        inputMode: "voiceActivity"
+        autoJoin: false
+        inputMode: "pushToTalk"
         muteOnConnect: false
-        pushToTalkKey: "[<Unbound>]"
+        pushToTalkKey: "[Ctrl][c]"
         showFirstExperienceInGame: true
         showFirstExperienceInLCU: false
     schemaVersion: 1
+lol-skins-viewer:
+    data:
+        groupingDropdownKey: "myCollection"
+        lastVisitTime: 1605144309014
+        sortingDropdownKey: "acquisitionDate"
+        unownedFilter: false
+    schemaVersion: 2
 lol-tft:
     data:
-        previouslySeenSeasons: "S3_Galaxies-pass,S3_Galaxies-parties"
+        previouslySeenSeasons: "S3_Galaxies-pass,S3_Galaxies-parties,S4_Fates-pass"
     schemaVersion: 1
 lol-tutorial:
     data:
@@ -135,5 +188,9 @@ lol-tutorial:
     schemaVersion: 1
 missions-settings:
     data:
-        selected_series: "TFTBattlepass_series"
+        selected_series: "Worlds_parent_series"
     schemaVersion: 0
+personalized-offers:
+    data:
+        lastViewedTimestamp: "2020-11-04T18:21:18.588Z"
+    schemaVersion: 1

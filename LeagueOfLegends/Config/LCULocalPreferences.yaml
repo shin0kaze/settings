@@ -1,8 +1,8 @@
 GeoInfo:
     data:
-        city: "omsk"
+        city: "kostroma"
         country: "rus"
-        region: "oms"
+        region: "kos"
     schemaVersion: 1
 lol-audio:
     data:
@@ -17,11 +17,14 @@ lol-clash:
         - "registration_open_tournament_581"
         - "registration_open_tournament_601"
         - "registration_open_tournament_1981"
+        - "registration_open_tournament_1541"
         - "registration_open_tournament_1181"
         - "lock_in_open_tournament_1981_phase_1981"
         - "lock_in_open_tournament_1161_phase_1121"
         - "registration_open_tournament_1161"
         - "registration_open_tournament_2001"
+        - "lock_in_open_tournament_1541_phase_1541"
+        - "registration_open_tournament_1542"
     schemaVersion: 1
 lol-collection-champions:
     data:
@@ -62,7 +65,7 @@ lol-parties:
     schemaVersion: 1
 lol-premade-voice:
     data:
-        currentCaptureDeviceHandle: "Default System Device"
+        currentCaptureDeviceHandle: ""
         inputVolume: 50
         vadSensitivity: 65
     schemaVersion: 1
@@ -82,5 +85,5 @@ lol-user-experience:
         hasBeenPromptedForPotatoMode: true
         lastKnownMachineSpec: 5
         potatoModeEnabled: true
-        unloadUxInGameEnabled: true
+        unloadUxInGameEnabled: false
     schemaVersion: 2

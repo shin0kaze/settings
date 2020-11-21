@@ -2,19 +2,19 @@ install:
     crash_reporting:
         type: "crashpad"
     game-settings:
-        accountId: 2441719985410368
+        accountId: 2469662330991008
         modified: false
-        timestamp: 1587578669866
-    gameflow-patcher-lock: null
+        timestamp: 1605933611795
+    gameflow-patcher-lock: 1605934898524
     gameflow-process-info: null
     gameflow-spectate-reconnect-info: null
     globals:
         locale: "ru_RU"
         region: "RU"
     lcu-settings:
-        accountId: 2441719985410368
+        accountId: 2469662330991008
         modified: false
-        timestamp: 1587578795897
+        timestamp: 1605931191320
     licensesAgreedTo:
         4F039B7708ED4333FA6715B86A2FE534: null
         669805AFB549049B0BC076CAE84983F7: null
@@ -32,17 +32,18 @@ install:
         game_patcher_migrated_time: "2019-11-15T11:26:53Z"
         locales:
         - "en_GB"
+        - "en_US"
         - "ru_RU"
         toggles:
             new_client_patcher: 0
             new_game_patcher: 0
     perks-settings:
-        accountId: 2441719985410368
+        accountId: 2469662330991008
         modified: false
-        timestamp: 1587576276214
+        timestamp: 1605932326141
     riotclient-upgrade:
-        seq-success-count: 100
-        success-count: 100
+        seq-success-count: 183
+        success-count: 183
         uninstaller-repaired: true
         uninstaller-updated: true
     rso-auth:

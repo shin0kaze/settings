@@ -1,0 +1,10 @@
+Looking in C:\Users\usr\AppData\Roaming\browsh\config.toml for config.
+Attempting to connect to Firefox Marionette
+Sending `WebDriver:NewSession` to Firefox Marionette
+Starting Browsh CLI client
+Starting websocket server...
+FF-MRNT: 50:{"applicationType":"gecko","marionetteProtocol":3}
+FF-MRNT: 725:[1,0,null,{"sessionId":"34e610c1-d0df-4019-8729-43644b93d127","capabilities":{"browserName":"firefox","browserVersion":"81.0","platformName":"windows","platformVersion":"10.0","acceptInsecureCerts":false,"pageLoadStrategy":"normal","setWindowRect":true,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"strictFileInteractability":false,"unhandledPromptBehavior":"dismiss and notify","rotatable":false,"moz:accessibilityChecks":false,"moz:buildID":"20200825191644","moz:headless":true,"moz:processID":4284,"moz:profile":"C:\\Users\\usr\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\ue9c0t1h.dev-edition-default-1","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+Webextension not connected. Message not sent: /tty_size,120,50
+Webextension not connected. Message not sent: /tty_size,120,50
+Webextension not connected. Message not sent: /tty_size,120,50

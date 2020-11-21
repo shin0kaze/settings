@@ -3,17 +3,17 @@ page-settings:
         pages: []
         perShardPerkBooks:
             ru:
-                currentPageId: 1488059482
+                currentPageId: 966149555
                 pages:
                 -   autoModifiedSelections: []
-                    current: true
-                    id: 1488059482
+                    current: false
+                    id: 397498627
                     isActive: false
                     isDeletable: true
                     isEditable: true
                     isValid: true
-                    lastModified: 1587576236513
-                    name: "sup"
+                    lastModified: 1605749093696
+                    name: "Ymi"
                     order: 0
                     primaryStyleId: 8200
                     selectedPerkIds:
@@ -21,16 +21,126 @@ page-settings:
                     - 8226
                     - 8210
                     - 8236
-                    - 8134
-                    - 8120
+                    - 8009
+                    - 8017
                     - 5007
+                    - 5008
+                    - 5002
+                    subStyleId: 8000
+                -   autoModifiedSelections: []
+                    current: false
+                    id: 1623390475
+                    isActive: false
+                    isDeletable: true
+                    isEditable: true
+                    isValid: true
+                    lastModified: 1605405585731
+                    name: "sin"
+                    order: 1
+                    primaryStyleId: 8200
+                    selectedPerkIds:
+                    - 8230
+                    - 8226
+                    - 8210
+                    - 8236
+                    - 8106
+                    - 8126
+                    - 5007
+                    - 5008
+                    - 5002
+                    subStyleId: 8100
+                -   autoModifiedSelections: []
+                    current: true
+                    id: 966149555
+                    isActive: false
+                    isDeletable: true
+                    isEditable: true
+                    isValid: true
+                    lastModified: 1605932302724
+                    name: "syni"
+                    order: 2
+                    primaryStyleId: 8000
+                    selectedPerkIds:
+                    - 8021
+                    - 9101
+                    - 9105
+                    - 8014
+                    - 8139
+                    - 8135
+                    - 5008
                     - 5008
                     - 5001
                     subStyleId: 8100
+                -   autoModifiedSelections: []
+                    current: false
+                    id: 900068819
+                    isActive: false
+                    isDeletable: true
+                    isEditable: true
+                    isValid: true
+                    lastModified: 1605393754269
+                    name: "Yma"
+                    order: 3
+                    primaryStyleId: 8100
+                    selectedPerkIds:
+                    - 8128
+                    - 8126
+                    - 8120
+                    - 8135
+                    - 8446
+                    - 8453
+                    - 5008
+                    - 5008
+                    - 5001
+                    subStyleId: 8400
+                -   autoModifiedSelections: []
+                    current: false
+                    id: 744725240
+                    isActive: false
+                    isDeletable: true
+                    isEditable: true
+                    isValid: true
+                    lastModified: 1605927459824
+                    name: "Sij"
+                    order: 4
+                    primaryStyleId: 8100
+                    selectedPerkIds:
+                    - 8124
+                    - 8126
+                    - 8120
+                    - 8105
+                    - 8232
+                    - 8275
+                    - 5008
+                    - 5008
+                    - 5002
+                    subStyleId: 8200
+                -   autoModifiedSelections: []
+                    current: false
+                    id: 1822810445
+                    isActive: false
+                    isDeletable: true
+                    isEditable: true
+                    isValid: true
+                    lastModified: 1605398381705
+                    name: "Sid"
+                    order: 5
+                    primaryStyleId: 8400
+                    selectedPerkIds:
+                    - 8439
+                    - 8463
+                    - 8473
+                    - 8451
+                    - 8226
+                    - 8236
+                    - 5007
+                    - 5002
+                    - 5003
+                    subStyleId: 8200
         settings:
             gameplayPatchVersionSeen: "9.23"
             gameplayUpdatedPerksSeen: []
             gridModeEnabled: false
-            showLongDescriptions: false
-            showPresetPages: true
+            showLongDescriptions: true
+            showPresetPages: false
     schemaVersion: 5
